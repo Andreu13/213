@@ -1,0 +1,146 @@
+  
+#wpshop_popup_shoprtcode {
+  position: relative;
+  width: 85%;
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 25px #000;
+  -moz-box-shadow: 0 2px 25px #000;
+  box-shadow: 0 2px 25px #000;
+  -webkit-transition: max-width .2s;
+  -moz-transition: max-width .2s;
+  transition: max-width .2s;
+}
+
+.wpshop_options_shortcode .inner {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.wpshop_choose_shortcode .wpshop_shortcode{
+  cursor: pointer;
+  font-size:22px;
+  padding: 20px 0px;
+  display: block;
+}
+
+.shortcode_option_wrapp.hidden  {
+  display: none;
+}
+
+.shortcode_option_wrapp {
+  margin-bottom: 25px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.shortcode_option_wrapp h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  min-height: 36px;
+}
+
+.wpshop_options_shortcode h1 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  padding: 0 10px;
+  line-height: 1.2;
+}
+
+.wpshop_options_shortcode .shortcode_help {
+  font-size: 12px;
+}
+
+.wpshop_options_shortcode form {
+  clear: both;
+}
+
+.wpshop_options_shortcode .button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wpshop_options_shortcode .return_select_shortcode  {
+  float: right;
+  margin-bottom: 15px;
+}
+
+.wpshop_options_shortcode .button_wrapp {
+  text-align: center;
+  display: block;
+}
+
+.shortcode_option_wrapp h5 span.red {
+  color: red;
+}
+
+.shortcode_option_wrapp input.error,
+.shortcode_option_wrapp select.error{
+  border: 1px solid red;
+}
+
+.shortcode_option_wrapp label.error {
+  color: red;
+}
+
+.shortcode_option_wrapp input[type="text"] {
+  line-height: 30px;
+  width: 100%;
+}
+
+.shortcode_option_wrapp input[type="radio"] {
+  margin-right: 10px;
+}
+
+.shortcode_option_wrapp select {
+  max-height: 100px;
+  width: 100%;
+}
+
+.shortcode_option_wrapp label{
+ font-style: italic;
+}
+
+.shortcode_option_wrapp.label_info label{
+  font-style: normal;
+  margin-top: 10px;
+  display: block;
+  color: green;
+}
+
+.shortcode_option_wrapp.short_varinat label,
+.shortcode_option_wrapp.radio label{
+  margin-right: 20px;
+  font-style: normal;
+}
+
+@media screen and (min-width: 783px) {
+  .shortcode_option_wrapp input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+  }
+  
+  .shortcode_option_wrapp {
+    width: 50%;
+  }
+}
+
+body.wpshop-mfp-shown .mfp-bg { z-index: 101000 !important; }
+body.wpshop-mfp-shown .mfp-wrap { z-index: 101001 !important; }
+body.wpshop-mfp-shown .mfp-preloader { z-index: 101002 !important; }
+body.wpshop-mfp-shown .mfp-content { z-index: 101003 !important; }
+body.wpshop-mfp-shown button.mfp-close,
+body.wpshop-mfp-shown button.mfp-arrow { z-index: 101004 !important; }
+
+.wp-picker-clear,
+div.wp-picker-holder {
+z-index: 999 !important;
+position: absolute !important;
+}

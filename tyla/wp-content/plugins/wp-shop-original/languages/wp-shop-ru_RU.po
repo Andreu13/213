@@ -1,0 +1,3430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-shop\n"
+"POT-Creation-Date: 2018-07-23 16:21+0300\n"
+"PO-Revision-Date: 2018-07-23 16:27+0300\n"
+"Last-Translator: WP Shop.ru <masta@wp-shop.ru>\n"
+"Language-Team: Sergey Makarin <serg.makarin@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax.php:225 ajax.php:253
+msgid "Your promo discount "
+msgstr "Ваша скидка по промокоду составляет: "
+
+#: ajax.php:238
+msgid "Promocode already not active "
+msgstr "Промокод больше не активен"
+
+#: classes/class.Wpshop.Admin.php:50 classes/class.Wpshop.Admin.php:51
+msgid "WP Shop Settings"
+msgstr "Настройки магазина"
+
+#: classes/class.Wpshop.Admin.php:50
+msgid "WP Shop"
+msgstr "Магазин"
+
+#: classes/class.Wpshop.Admin.php:52
+msgid "WP Shop Orders"
+msgstr "Заказы"
+
+#: classes/class.Wpshop.Admin.php:53
+msgid "WP Shop Payments"
+msgstr "Настройки оплаты"
+
+#: classes/class.Wpshop.Admin.php:57
+msgid "WP Shop Deliveries"
+msgstr "Настройки доставки"
+
+#: classes/class.Wpshop.Admin.php:125 classes/class.Wpshop.Orders.php:68
+#: classes/class.Wpshop.Payment.php:420 views/mail/client_confirm.php:16
+msgid "Order #"
+msgstr "Заказ №"
+
+#: classes/class.Wpshop.Admin.php:125 classes/class.Wpshop.Orders.php:68
+msgid " has paid"
+msgstr " оплачен"
+
+#: classes/class.Wpshop.Admin.php:127 classes/class.Wpshop.Admin.php:153
+#: classes/class.Wpshop.Orders.php:69 classes/class.Wpshop.Orders.php:95
+#: classes/class.Wpshop.Payment.php:423
+msgid "Payment Confirmation"
+msgstr "Подтверждение оплаты"
+
+#: classes/class.Wpshop.Admin.php:127 classes/class.Wpshop.Admin.php:153
+#: classes/class.Wpshop.Orders.php:69 classes/class.Wpshop.Orders.php:95
+#: classes/class.Wpshop.Payment.php:423 classes/class.Wpshop.RecycleBin.php:272
+#: classes/class.Wpshop.RecycleBin.php:284 views/RecycleBinAfterSend.php:10
+#: views/RecycleBinAfterSend.php:34 views/RecycleBinAfterSend.php:88
+#: views/RecycleBinAfterSend.php:141 views/RecycleBinAfterSend.php:165
+#: views/RecycleBinAfterSend.php:426 views/RecycleBinAfterSend.php:501
+#: views/RecycleBinAfterSend.php:569 views/RecycleBinAfterSend.php:607
+msgid "from site"
+msgstr "с сайта"
+
+#: classes/class.Wpshop.Admin.php:313 views/RecycleBinAfterSend.php:10
+#: views/RecycleBinAfterSend.php:34 views/RecycleBinAfterSend.php:88
+#: views/RecycleBinAfterSend.php:141 views/RecycleBinAfterSend.php:165
+#: views/RecycleBinAfterSend.php:426 views/RecycleBinAfterSend.php:501
+#: views/RecycleBinAfterSend.php:569 views/RecycleBinAfterSend.php:607
+#: views/admin/orders.order.php:9 views/good.widget.inc.php:53
+msgid "Order"
+msgstr "Заказ"
+
+#: classes/class.Wpshop.Boot.php:148 views/RecycleBin.php:66
+msgid "You need activate support of JavaScript and Cookies in your browser."
+msgstr ""
+"В вашем браузере отключена поддержка JavaScript и Cookies. Необходимо включить "
+"эти параметры."
+
+#: classes/class.Wpshop.Boot.php:164 views/admin/orders.order.php:79
+#: views/mail/admin.php:19 views/mail/client.php:19 views/mail/client1.php:6
+#: views/mail/client_confirm.php:22 views/mail/client_confirm_custom.php:19
+msgid "Name"
+msgstr "Наименование"
+
+#: classes/class.Wpshop.Boot.php:165 classes/class.Wpshop.Post.php:18
+#: classes/class.Wpshop.Post.php:77 views/admin/delivery.php:11
+#: views/admin/delivery.php:29 views/admin/delivery.php:47
+#: views/admin/delivery.php:63 views/admin/orders.order.php:82
+#: views/mail/admin.php:21 views/mail/client.php:21 views/mail/client1.php:6
+#: views/mail/client_confirm.php:24 views/mail/client_confirm_custom.php:21
+msgid "Price"
+msgstr "Стоимость"
+
+#: classes/class.Wpshop.Boot.php:166 classes/class.Wpshop.Post.php:19
+#: classes/class.Wpshop.Post.php:80 views/mail/admin.php:22
+#: views/mail/client.php:22 views/mail/client1.php:6
+#: views/mail/client_confirm.php:23 views/mail/client_confirm_custom.php:20
+msgid "Qty"
+msgstr "Количество"
+
+#: classes/class.Wpshop.Boot.php:167 views/mail/admin.php:23
+#: views/mail/client.php:23 views/mail/client1.php:6
+msgid "Sum"
+msgstr "Сумма"
+
+#: classes/class.Wpshop.Boot.php:169
+msgid "Successfully added to cart!"
+msgstr "Успешно добавлено в корзину!"
+
+#: classes/class.Wpshop.Boot.php:170 views/admin/orders.order.php:142
+#: views/admin/orders.order.php:149 views/mail/admin.php:66
+#: views/mail/admin.php:75 views/mail/client.php:65 views/mail/client.php:74
+#: views/mail/client1.php:47 views/mail/client1.php:56
+msgid "Free"
+msgstr "Бесплатная доставка"
+
+#: classes/class.Wpshop.Boot.php:171
+msgid "Wrong promocode"
+msgstr "Неверный промокод"
+
+#: classes/class.Wpshop.Boot.php:172
+msgid "You use promocode:"
+msgstr "Вы использовали промокод: "
+
+#: classes/class.Wpshop.Boot.php:177
+msgid "To do order"
+msgstr "Оформить заказ"
+
+#: classes/class.Wpshop.Boot.php:178
+msgid "Continue select"
+msgstr "Продолжить покупки"
+
+#: classes/class.Wpshop.Boot.php:179
+msgid "In stock"
+msgstr "Остаток на складе"
+
+#: classes/class.Wpshop.Boot.php:180
+msgid "pcs."
+msgstr "шт."
+
+#: classes/class.Wpshop.Boot.php:181 views/admin/orders.php:151
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/class.Wpshop.Boot.php:182
+msgid "TOTAL:"
+msgstr "ИТОГО:"
+
+#: classes/class.Wpshop.Boot.php:183
+msgid "Delete all"
+msgstr "Удалить все"
+
+#: classes/class.Wpshop.Boot.php:184
+msgid "Empty your shoping cart"
+msgstr "Очистить вашу корзину"
+
+#: classes/class.Wpshop.Boot.php:185
+msgid "Your discount:"
+msgstr "Ваша скидка:"
+
+#: classes/class.Wpshop.Boot.php:186
+msgid "TOTAL with discount"
+msgstr "ИТОГО со скидкой:"
+
+#: classes/class.Wpshop.Boot.php:187
+msgid "Price with delivery"
+msgstr "Стоимость с учетом доставки"
+
+#: classes/class.Wpshop.Boot.php:188
+msgid "Items:"
+msgstr "Позиций:"
+
+#: classes/class.Wpshop.Boot.php:189 views/mail/admin.php:44
+#: views/mail/client.php:43 views/mail/client1.php:25
+msgid "Total:"
+msgstr "Итого:"
+
+#: classes/class.Wpshop.Boot.php:191
+msgid "Submit order"
+msgstr "Оформить заказ"
+
+#: classes/class.Wpshop.Boot.php:193
+msgid "Continue shopping"
+msgstr "Продолжить покупки"
+
+#: classes/class.Wpshop.Boot.php:194
+msgid "Your shopping cart is empty!"
+msgstr "Ваша корзина пуста."
+
+#: classes/class.Wpshop.Boot.php:195
+msgid "Stock error"
+msgstr "Заказ превышает остаток на складе"
+
+#: classes/class.Wpshop.Boot.php:196
+msgid "Promocode"
+msgstr "Промокод"
+
+#: classes/class.Wpshop.Boot.php:197
+msgid "Use Promocode"
+msgstr "Введите промокод"
+
+#: classes/class.Wpshop.Boot.php:536
+msgid "-"
+msgstr ""
+
+#: classes/class.Wpshop.Boot.php:536
+msgid "select"
+msgstr "-"
+
+#: classes/class.Wpshop.Button.php:36
+msgid "Add wp-shop shortcode"
+msgstr "Вставить шорткод магазина wp-shop"
+
+#: classes/class.Wpshop.Button.php:46
+msgid "Choose shortcode"
+msgstr "Выберите шорткод"
+
+#: classes/class.Wpshop.Button.php:47
+msgid "Showcase"
+msgstr "Витрина"
+
+#: classes/class.Wpshop.Button.php:48
+msgid "Pricelist by category"
+msgstr "Прайс по рубрике"
+
+#: classes/class.Wpshop.Button.php:49
+msgid "Pricelist by tag"
+msgstr "Прайс по метке"
+
+#: classes/class.Wpshop.Button.php:50
+msgid "Showcase by post type"
+msgstr "Витрина по типу записи"
+
+#: classes/class.Wpshop.Button.php:50
+msgid "Pro"
+msgstr ""
+
+#: classes/class.Wpshop.Button.php:63
+msgid "This field is required."
+msgstr "Поле является обязательным."
+
+#: classes/class.Wpshop.Button.php:64
+msgid "Please fix this field."
+msgstr "Пожалуйста откорректируйте поле."
+
+#: classes/class.Wpshop.Button.php:65
+msgid "Please enter a valid email address."
+msgstr "Введите действительный email."
+
+#: classes/class.Wpshop.Button.php:66
+msgid "Please enter a valid URL."
+msgstr "Введите действительный URL."
+
+#: classes/class.Wpshop.Button.php:67
+msgid "Please enter a valid date."
+msgstr " Введите дату."
+
+#: classes/class.Wpshop.Button.php:68
+msgid "Please enter a valid date (ISO)."
+msgstr "Введите дату в формате (ICO)."
+
+#: classes/class.Wpshop.Button.php:69
+msgid "Please enter a valid number."
+msgstr "Введите число."
+
+#: classes/class.Wpshop.Button.php:70
+msgid "Please enter only digits."
+msgstr "Используйте только численное значение."
+
+#: classes/class.Wpshop.Button.php:71
+msgid "Please enter a valid credit card number."
+msgstr "Введите номер кредитной карты."
+
+#: classes/class.Wpshop.Button.php:72
+msgid "Please enter the same value again."
+msgstr "Пожалуйста, введите то же значение снова."
+
+#: classes/class.Wpshop.Button.php:73
+msgid "Please enter a value with a valid extension."
+msgstr "Введите значение с действующим расширением."
+
+#: classes/class.Wpshop.Button.php:74
+msgid "Please enter no more than {0} characters."
+msgstr "Введите не более {0} символов."
+
+#: classes/class.Wpshop.Button.php:75
+msgid "Please enter at least {0} characters."
+msgstr "Введите не менее {0} символов."
+
+#: classes/class.Wpshop.Button.php:76
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Введите значение длиной между {0} и {1} символами."
+
+#: classes/class.Wpshop.Button.php:77
+msgid "Please enter a value between {0} and {1}."
+msgstr "Введите значение между {0} и {1}."
+
+#: classes/class.Wpshop.Button.php:78
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Введите значение, меньшее или равное {0}."
+
+#: classes/class.Wpshop.Button.php:79
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Пожалуйста, введите значение, большее или равное {0}."
+
+#: classes/class.Wpshop.Button.php:80
+msgid "Incorrect field format"
+msgstr "Неверный формат поля"
+
+#: classes/class.Wpshop.Button.php:233
+msgid "Settings of showcase shortcode"
+msgstr "Настройки шорткода витрины"
+
+#: classes/class.Wpshop.Button.php:233 classes/class.Wpshop.Button.php:310
+msgid "Read instructions"
+msgstr "Прочтите инструкцию"
+
+#: classes/class.Wpshop.Button.php:234 classes/class.Wpshop.Button.php:283
+#: classes/class.Wpshop.Button.php:294 classes/class.Wpshop.Button.php:311
+msgid "Back to the selection of shortcode"
+msgstr "Назад к выбору шорткода"
+
+#: classes/class.Wpshop.Button.php:236
+msgid "Choose the display option for the showcase"
+msgstr "Выберите вариант отображения витрины"
+
+#: classes/class.Wpshop.Button.php:237
+msgid "By Category"
+msgstr "По категории"
+
+#: classes/class.Wpshop.Button.php:237
+msgid "By Tag"
+msgstr "По метке"
+
+#: classes/class.Wpshop.Button.php:238 classes/class.Wpshop.Button.php:285
+msgid "Select a category"
+msgstr "Выберите категорию"
+
+#: classes/class.Wpshop.Button.php:239 classes/class.Wpshop.Button.php:286
+msgid "To select multiple categories, use Ctrl"
+msgstr "Чтобы выбрать несколько категорий, используйте Ctrl"
+
+#: classes/class.Wpshop.Button.php:240 classes/class.Wpshop.Button.php:296
+msgid "Select a tag"
+msgstr "Выберите метку"
+
+#: classes/class.Wpshop.Button.php:241 classes/class.Wpshop.Button.php:297
+msgid "To select multiple tags, use Ctrl"
+msgstr "Чтобы выбрать несколько меток, используйте Ctrl"
+
+#: classes/class.Wpshop.Button.php:242 classes/class.Wpshop.Button.php:321
+msgid "Number of columns"
+msgstr "Количество колонок"
+
+#: classes/class.Wpshop.Button.php:243 classes/class.Wpshop.Button.php:322
+msgid "Number of rows"
+msgstr "Количество строк"
+
+#: classes/class.Wpshop.Button.php:244 classes/class.Wpshop.Button.php:323
+msgid "Height of showcase item"
+msgstr "Высота товара в витрине"
+
+#: classes/class.Wpshop.Button.php:245 classes/class.Wpshop.Button.php:324
+msgid "Length of item description in characters"
+msgstr "Длина описания товара в символах"
+
+#: classes/class.Wpshop.Button.php:247
+msgid "The following settings works only in Pro version of the Wpshop plugin"
+msgstr "Следующие настройки работают только в Pro версии плагина Wpshop"
+
+#: classes/class.Wpshop.Button.php:248
+msgid "See more..."
+msgstr "Подробнее..."
+
+#: classes/class.Wpshop.Button.php:250 classes/class.Wpshop.Button.php:326
+msgid "Show by custom field"
+msgstr "Фильтровать витрину на наличие пользовательского поля"
+
+#: classes/class.Wpshop.Button.php:250 classes/class.Wpshop.Button.php:326
+msgid "Please type field name here"
+msgstr "Введите название пользовательского поля"
+
+#: classes/class.Wpshop.Button.php:251 classes/class.Wpshop.Button.php:327
+msgid "Min width of showcase item"
+msgstr "Минимальная ширина товара в витрине"
+
+#: classes/class.Wpshop.Button.php:252 classes/class.Wpshop.Button.php:328
+msgid "Custom CSS class for showcase item"
+msgstr "Пользовательский CSS класс для оформления товаров в витрине"
+
+#: classes/class.Wpshop.Button.php:252 classes/class.Wpshop.Button.php:328
+msgid "Enter only the class name without spaces and dots"
+msgstr "Введите только название класса без пробелов и точек"
+
+#: classes/class.Wpshop.Button.php:253 classes/class.Wpshop.Button.php:329
+msgid "Shop button text"
+msgstr "Текст кнопки Купить"
+
+#: classes/class.Wpshop.Button.php:253 classes/class.Wpshop.Button.php:329
+msgid "Buy"
+msgstr "Купить"
+
+#: classes/class.Wpshop.Button.php:254 classes/class.Wpshop.Button.php:330
+msgid "You can use fontawesome.com icons. Don't use double quotes"
+msgstr ""
+"Вы можете использовать иконки fontawesome.com. Не используйте двойные кавычки"
+
+#: classes/class.Wpshop.Button.php:255 classes/class.Wpshop.Button.php:331
+msgid "Shop button border radius"
+msgstr "Радиус кнопки Купить"
+
+#: classes/class.Wpshop.Button.php:256 classes/class.Wpshop.Button.php:332
+msgid "Showcase item image height"
+msgstr "Высота изображения товара в витрине"
+
+#: classes/class.Wpshop.Button.php:257 classes/class.Wpshop.Button.php:333
+msgid "Shop button text color"
+msgstr "Цвет текста кнопки Купить"
+
+#: classes/class.Wpshop.Button.php:258 classes/class.Wpshop.Button.php:334
+msgid "Shop button text color on hover"
+msgstr "Цвет текста кнопки Купить при наведении"
+
+#: classes/class.Wpshop.Button.php:259 classes/class.Wpshop.Button.php:335
+msgid "Shop button background color"
+msgstr "Фон кнопки Купить"
+
+#: classes/class.Wpshop.Button.php:260 classes/class.Wpshop.Button.php:336
+msgid "Shop button background color on hover"
+msgstr "Фон кнопки Купить при наведении"
+
+#: classes/class.Wpshop.Button.php:261 classes/class.Wpshop.Button.php:337
+msgid "Shop item border color"
+msgstr "Цвет рамки товара в витрине"
+
+#: classes/class.Wpshop.Button.php:262 classes/class.Wpshop.Button.php:338
+msgid "Text align"
+msgstr "Выравнивание текста в товаре"
+
+#: classes/class.Wpshop.Button.php:263 classes/class.Wpshop.Button.php:339
+msgid "Center"
+msgstr "По центру"
+
+#: classes/class.Wpshop.Button.php:263 classes/class.Wpshop.Button.php:339
+msgid "Left"
+msgstr "Слева"
+
+#: classes/class.Wpshop.Button.php:263 classes/class.Wpshop.Button.php:339
+msgid "Right"
+msgstr "Справа"
+
+#: classes/class.Wpshop.Button.php:265 classes/class.Wpshop.Button.php:341
+msgid "Hide image?"
+msgstr "Скрыть изображение товара?"
+
+#: classes/class.Wpshop.Button.php:266 classes/class.Wpshop.Button.php:342
+msgid "Hide title?"
+msgstr "Скрыть заголовок товара?"
+
+#: classes/class.Wpshop.Button.php:267 classes/class.Wpshop.Button.php:343
+msgid "Hide item description?"
+msgstr "Скрыть описание товара?"
+
+#: classes/class.Wpshop.Button.php:268 classes/class.Wpshop.Button.php:344
+msgid "Hide shop button?"
+msgstr "Скрыть кнопку купить?"
+
+#: classes/class.Wpshop.Button.php:269 classes/class.Wpshop.Button.php:345
+msgid "Hide counter?"
+msgstr "Скрыть количество товара?"
+
+#: classes/class.Wpshop.Button.php:270 classes/class.Wpshop.Button.php:346
+msgid "Hide showcase item with negative field `sklad_1` value?"
+msgstr ""
+"Скрывать товар в витрине если поле `sklad_1` имеет отрицательное значение?"
+
+#: classes/class.Wpshop.Button.php:271 classes/class.Wpshop.Button.php:347
+msgid "Hide wp-shop variations?"
+msgstr "Скрывать вариацию в товаре?"
+
+#: classes/class.Wpshop.Button.php:272 classes/class.Wpshop.Button.php:348
+msgid "Show paggination?"
+msgstr "Постраничный режим витрины?"
+
+#: classes/class.Wpshop.Button.php:273 classes/class.Wpshop.Button.php:349
+msgid "Show showcase item border?"
+msgstr "Рамка товара?"
+
+#: classes/class.Wpshop.Button.php:274 classes/class.Wpshop.Button.php:350
+msgid "Enable item ratings?"
+msgstr "Активировать рейтинг в товаре?"
+
+#: classes/class.Wpshop.Button.php:274 classes/class.Wpshop.Button.php:350
+msgid "Works if only WP-PostRatings plugin is activated"
+msgstr "Работает только если плагин WP-PostRatings  активирован"
+
+#: classes/class.Wpshop.Button.php:276 classes/class.Wpshop.Button.php:287
+#: classes/class.Wpshop.Button.php:298 classes/class.Wpshop.Button.php:353
+msgid "Insert Shortcode"
+msgstr "Вставить шорткод"
+
+#: classes/class.Wpshop.Button.php:282 classes/class.Wpshop.Button.php:293
+msgid "Settings of price shortcode"
+msgstr "Настройки шорткода прайса"
+
+#: classes/class.Wpshop.Button.php:310
+msgid "Settings of showcase by post type shortcode"
+msgstr "Настройки шорткода витрины по типу записи"
+
+#: classes/class.Wpshop.Button.php:310
+msgid "Buy pro"
+msgstr "Купить pro версию"
+
+#: classes/class.Wpshop.Button.php:313
+msgid "Select a post type"
+msgstr "Выберите тип записи"
+
+#: classes/class.Wpshop.Button.php:314
+msgid "Select a taxonomy"
+msgstr "Выберите таксономию"
+
+#: classes/class.Wpshop.Button.php:315
+msgid "Select a term"
+msgstr "Выберите термин"
+
+#: classes/class.Wpshop.Button.php:316
+msgid "To select multiple terms, use Ctrl"
+msgstr "Чтобы выбрать несколько терминов, используйте Ctrl"
+
+#: classes/class.Wpshop.Button.php:318
+msgid "Include only posts with ID's"
+msgstr "Выводить только записи с ID"
+
+#: classes/class.Wpshop.Button.php:318 classes/class.Wpshop.Button.php:319
+msgid "specify separated by commas"
+msgstr "Укажите через запятую"
+
+#: classes/class.Wpshop.Button.php:319
+msgid "Exclude posts with ID's"
+msgstr "Исключить из вывода посты с ID"
+
+#: classes/class.Wpshop.Button.php:351
+msgid "Hide showcase filter?"
+msgstr "Скрыть фильтр в витрине?"
+
+#: classes/class.Wpshop.Delivery.php:23
+msgid "Mail delivery across the country"
+msgstr "Доставка почтой по стране"
+
+#: classes/class.Wpshop.Delivery.php:32
+msgid "International mail delivery"
+msgstr "Международная доставка почтой"
+
+#: classes/class.Wpshop.Delivery.php:42
+msgid "Delivery by courier"
+msgstr "Доставка курьером"
+
+#: classes/class.Wpshop.Delivery.php:52 views/admin/delivery.php:59
+msgid "A visit to the office"
+msgstr "Визит в наш офис"
+
+#: classes/class.Wpshop.Delivery.php:62
+msgid "User delivery"
+msgstr "Пользовательская доставка"
+
+#: classes/class.Wpshop.ExImp.php:25
+msgid "WP Shop Export/Import"
+msgstr "Экспорт / Импорт"
+
+#: classes/class.Wpshop.Forms.php:87
+msgid "One minute please ..."
+msgstr "Одну минуту, пожалуйста ..."
+
+#: classes/class.Wpshop.Forms.php:95
+msgid ""
+"<h3>Your order is accepted!</h3> Our manager will contact you by phone to "
+"arrange the details of your order. <h4> Thank you for using our service!</h4>"
+msgstr ""
+"<h3>Ваш заказ принят!</h3>Наш менеджер свяжется с Вами по контактному телефону "
+"для уточнения деталей по Вашему заказу.<h4>Благодарим что воспользовались "
+"нашим сервисом!</h4>"
+
+#: classes/class.Wpshop.Forms.php:97 classes/class.Wpshop.Forms.php:98
+msgid "*"
+msgstr ""
+
+#: classes/class.Wpshop.Forms.php:99
+msgid "Please fill in all required fields!"
+msgstr "Пожалуйста, заполните все обязательные поля!"
+
+#: classes/class.Wpshop.Forms.php:121 views/admin/settings.php:403
+#: views/admin/settings.php:431
+msgid "Done"
+msgstr "Готово"
+
+#: classes/class.Wpshop.Installer.php:244
+msgid "$"
+msgstr "руб."
+
+#: classes/class.Wpshop.Installer.php:278
+msgid ""
+"Amount of your order is below of the minimum. Please order something else!"
+msgstr ""
+"Сумма Вашего заказа ниже минимальной. Пожалуйста закажите еще что-нибудь!"
+
+#: classes/class.Wpshop.Metaboxes.php:16
+msgid "Product Options"
+msgstr "Опции товара"
+
+#: classes/class.Wpshop.Metaboxes.php:31
+msgid "Please specify the cost of product!"
+msgstr "Пожалуйста укажите стоимость товара!"
+
+#: classes/class.Wpshop.Orders.php:9 classes/class.Wpshop.Page.php:745
+#: classes/class.Wpshop.Page.php:777
+msgid "New"
+msgstr "Новый"
+
+#: classes/class.Wpshop.Orders.php:10
+msgid "Paid"
+msgstr "Оплачено"
+
+#: classes/class.Wpshop.Orders.php:11
+msgid "Cancelled"
+msgstr "Отменено"
+
+#: classes/class.Wpshop.Orders.php:12
+msgid "In the process"
+msgstr "В обработке"
+
+#: classes/class.Wpshop.Orders.php:13
+msgid "Delivered"
+msgstr "Доставлено"
+
+#: classes/class.Wpshop.Orders.php:14
+msgid "Archive"
+msgstr "Архив"
+
+#: classes/class.Wpshop.Orders.php:15
+msgid "Untraceable"
+msgstr "На проверке"
+
+#: classes/class.Wpshop.Page.php:26 classes/class.Wpshop.Page.php:37
+msgid "WP Shop Carts"
+msgstr "Настройки корзин"
+
+#: classes/class.Wpshop.Page.php:29
+msgid "Add new shopping cart"
+msgstr "Добавить новую корзину"
+
+#: classes/class.Wpshop.Page.php:30
+msgid "Edit your shopping cart"
+msgstr "Редактировать корзину"
+
+#: classes/class.Wpshop.Page.php:31
+msgid "New book"
+msgstr "Новая книга"
+
+#: classes/class.Wpshop.Page.php:32
+msgid "View Book"
+msgstr "Посмотреть книгу"
+
+#: classes/class.Wpshop.Page.php:33
+msgid "Search book"
+msgstr "Найти книгу"
+
+#: classes/class.Wpshop.Page.php:35
+msgid "No books in your shopping cart"
+msgstr "В корзине книг не найдено"
+
+#: classes/class.Wpshop.Page.php:66 classes/class.Wpshop.Page.php:76
+msgid "WP Shop User Deliveries"
+msgstr "Пользовательская доставка"
+
+#: classes/class.Wpshop.Page.php:68
+msgid "Add new user delivery"
+msgstr "Добавить способ доставки"
+
+#: classes/class.Wpshop.Page.php:69
+msgid "Edit your delivery"
+msgstr "изменить"
+
+#: classes/class.Wpshop.Page.php:70
+msgid "New delivery"
+msgstr "Новый способ доставки"
+
+#: classes/class.Wpshop.Page.php:71
+msgid "View delivery"
+msgstr "Просмотреть"
+
+#: classes/class.Wpshop.Page.php:72
+msgid "Search delivery"
+msgstr "Найти"
+
+#: classes/class.Wpshop.Page.php:74 classes/class.Wpshop.Page.php:106
+#: classes/class.Wpshop.Page.php:137
+msgid "Not found"
+msgstr "Не найден"
+
+#: classes/class.Wpshop.Page.php:97
+msgid "WP Shop Client Mail"
+msgstr "Настройки писем"
+
+#: classes/class.Wpshop.Page.php:100
+msgid "Add new mail"
+msgstr "Добавить новый шаблон письма "
+
+#: classes/class.Wpshop.Page.php:101
+msgid "Edit your mail"
+msgstr "Изменить шаблон писем"
+
+#: classes/class.Wpshop.Page.php:102
+msgid "New mail"
+msgstr "Новый шаблон писем"
+
+#: classes/class.Wpshop.Page.php:103
+msgid "View mail"
+msgstr "Просмотреть шаблон писем"
+
+#: classes/class.Wpshop.Page.php:104
+msgid "Search mail"
+msgstr "Искать шаблон писем"
+
+#: classes/class.Wpshop.Page.php:108
+msgid "WP Shop Mail Constructor"
+msgstr "Редактор писем"
+
+#: classes/class.Wpshop.Page.php:128 classes/class.Wpshop.Page.php:139
+msgid "WP Shop Promo"
+msgstr "WP Shop промокоды"
+
+#: classes/class.Wpshop.Page.php:131
+msgid "Add new promo"
+msgstr "Добавить новый промокод"
+
+#: classes/class.Wpshop.Page.php:132
+msgid "Edit your promo"
+msgstr "Редактировать промокод"
+
+#: classes/class.Wpshop.Page.php:133
+msgid "New promo"
+msgstr "Новый промокод"
+
+#: classes/class.Wpshop.Page.php:134
+msgid "View promo"
+msgstr "Просмотреть промокод"
+
+#: classes/class.Wpshop.Page.php:135
+msgid "Search promo"
+msgstr "Найти промокод"
+
+#: classes/class.Wpshop.Page.php:158
+msgid "Payment page"
+msgstr "Платежная страница"
+
+#: classes/class.Wpshop.Page.php:159 classes/class.Wpshop.Page.php:737
+#: classes/class.Wpshop.Page.php:769
+msgid "Payment"
+msgstr "Платеж"
+
+#: classes/class.Wpshop.Page.php:191
+msgid "not marked"
+msgstr "не отмечено"
+
+#: classes/class.Wpshop.Page.php:239
+msgid "Your payment through Tinkoff Bank accepted"
+msgstr "Ваш платеж через Тинькофф Банк принят"
+
+#: classes/class.Wpshop.Page.php:252
+msgid "Your payment through Tinkoff Bank failed"
+msgstr "Ваш платеж через Тинькофф Банк не принят"
+
+#: classes/class.Wpshop.Page.php:268
+msgid "Your payment through ‘Web-Money’ accepted"
+msgstr "Ваш платеж через ‘Web-Money’ принят"
+
+#: classes/class.Wpshop.Page.php:281
+msgid "Your payment through ‘Web-Money’ failed"
+msgstr "Ваш платеж через ‘Web-Money’ не принят"
+
+#: classes/class.Wpshop.Page.php:297
+msgid "Your payment through ‘Yandex Money’ accepted"
+msgstr "Ваш платеж через Yandex деньги принят"
+
+#: classes/class.Wpshop.Page.php:313
+msgid "Your payment through ‘Yandex kassa’ accepted"
+msgstr "Ваш платеж через 'Яндекс касса’ принят"
+
+#: classes/class.Wpshop.Page.php:326
+msgid "Your payment through ‘Yandex kassa’ failed"
+msgstr "Ваш платеж через 'Яндекс касса’ не принят"
+
+#: classes/class.Wpshop.Page.php:342
+msgid "Your payment through ‘Cryptonator’ accepted"
+msgstr "Ваш платеж через `Криптонатор` принят"
+
+#: classes/class.Wpshop.Page.php:355
+msgid "Your payment through ‘Cryptonator’ failed"
+msgstr "Ваш платеж через `Криптонатор` не выполнен"
+
+#: classes/class.Wpshop.Page.php:371
+msgid "Your payment through ‘Robokassa’ accepted"
+msgstr "Ваш платеж через 'Робокасса’ принят"
+
+#: classes/class.Wpshop.Page.php:384
+msgid "Your payment through ‘Robokassa’ failed"
+msgstr "Ваш платеж через 'Робокасса’ не принят"
+
+#: classes/class.Wpshop.Page.php:400
+msgid "Your payment through ‘W1’ accepted"
+msgstr "Ваш платеж через 'Единая касса’ принят"
+
+#: classes/class.Wpshop.Page.php:413
+msgid "Your payment through ‘W1’ failed"
+msgstr "Ваш платеж через 'Единая касса’ не принят"
+
+#: classes/class.Wpshop.Page.php:430
+msgid "Your payment through ‘Paypal’ accepted"
+msgstr "Ваш платеж через ‘Paypal’ принят"
+
+#: classes/class.Wpshop.Page.php:443
+msgid "Your payment through ‘Paypal’ failed"
+msgstr "Ваш платеж через ‘Paypal’ не принят"
+
+#: classes/class.Wpshop.Page.php:460
+msgid "Your payment through ‘iCredit’ accepted"
+msgstr "Ваш платеж через ‘iCredit’’ принят"
+
+#: classes/class.Wpshop.Page.php:477
+msgid "Your payment through ‘Sberbank’ accepted"
+msgstr "Ваш платеж через Сбербанк принят"
+
+#: classes/class.Wpshop.Page.php:490
+msgid "Your payment through ‘Sberbank’ failed"
+msgstr "Ваш платеж через Сбербанк отклонен"
+
+#: classes/class.Wpshop.Page.php:507
+msgid "Your payment through ‘ArtPay’ accepted"
+msgstr "Ваш платеж через ‘ArtPay’ принят"
+
+#: classes/class.Wpshop.Page.php:523
+msgid "Your payment through ‘ArtPay’ failed"
+msgstr "Ваш платеж через ‘ArtPay’ не принят"
+
+#: classes/class.Wpshop.Page.php:543
+msgid "Your payment through ‘Primearea’ accepted"
+msgstr "Ваш платеж через «Primearea» принят"
+
+#: classes/class.Wpshop.Page.php:559
+msgid "Your payment through ‘Primearea’ failed"
+msgstr "Ваш платеж через «Primearea» не принят"
+
+#: classes/class.Wpshop.Page.php:578
+msgid "Your payment through ‘SOFORT’ accepted"
+msgstr "Ваш платеж через ‘SOFORT’ принят"
+
+#: classes/class.Wpshop.Page.php:591
+msgid "Your payment through ‘SOFORT’ failed"
+msgstr "Ваш платеж через ‘SOFORT’ не принят"
+
+#: classes/class.Wpshop.Page.php:608
+msgid "Your payment through ‘Chronopay’ accepted"
+msgstr "Ваш платеж через ‘Chronopay’ принят"
+
+#: classes/class.Wpshop.Page.php:621
+msgid "Your payment through ‘Chronopay’ failed"
+msgstr "Ваш платеж через ‘Chronopay’ не принят"
+
+#: classes/class.Wpshop.Page.php:638
+msgid "Your payment through ‘Simplepay’ accepted"
+msgstr "Ваш платеж через ‘Simplepay’ принят"
+
+#: classes/class.Wpshop.Page.php:651
+msgid "Your payment through ‘Simplepay’ failed"
+msgstr "Ваш платеж через ‘Simplepay’ не принят"
+
+#: classes/class.Wpshop.Page.php:670
+msgid "Your payment through ‘Interkassa’ accepted"
+msgstr "Ваш платеж через `Interkassa` принят"
+
+#: classes/class.Wpshop.Page.php:683
+msgid "Your payment through ‘Interkassa’ failed"
+msgstr "Ваш платеж через `Interkassa` не принят"
+
+#: classes/class.Wpshop.Page.php:736
+msgid "Payment types"
+msgstr ""
+
+#: classes/class.Wpshop.Page.php:738 classes/class.Wpshop.Page.php:770
+msgid "Search"
+msgstr ""
+
+#: classes/class.Wpshop.Page.php:739 classes/class.Wpshop.Page.php:771
+msgid "All"
+msgstr ""
+
+#: classes/class.Wpshop.Page.php:740 classes/class.Wpshop.Page.php:741
+#: classes/class.Wpshop.Page.php:772 classes/class.Wpshop.Page.php:773
+msgid "Parent"
+msgstr ""
+
+#: classes/class.Wpshop.Page.php:742 classes/class.Wpshop.Page.php:774
+msgid "Edit"
+msgstr ""
+
+#: classes/class.Wpshop.Page.php:743 classes/class.Wpshop.Page.php:775
+#: views/admin/settings.php:442
+msgid "Update"
+msgstr "Обновить"
+
+#: classes/class.Wpshop.Page.php:744 classes/class.Wpshop.Page.php:776
+#: views/good.widget.inc.php:53
+msgid "Add"
+msgstr "Добавить"
+
+#: classes/class.Wpshop.Page.php:746
+msgid "Delivery for payment type"
+msgstr "Доставка по типу оплаты"
+
+#: classes/class.Wpshop.Page.php:768 classes/class.Wpshop.Page.php:778
+msgid "Mail type"
+msgstr "Тип письма"
+
+#: classes/class.Wpshop.Page.php:797 classes/class.Wpshop.Page.php:798
+msgid "Without payment"
+msgstr "Без оплаты"
+
+#: classes/class.Wpshop.Page.php:801 classes/class.Wpshop.Page.php:802
+msgid "Order confirmation"
+msgstr "Подтверждение оплаты заказа"
+
+#: classes/class.Wpshop.Payment.php:26 views/admin/payments.php:63
+msgid "Self-delivery"
+msgstr "Самовывоз"
+
+#: classes/class.Wpshop.Payment.php:27
+msgid "Making order using 'Self-delivery' goods from our store / office"
+msgstr "Оформление заказа через ‘самовывоз’ товара из нашего магазина/офиса"
+
+#: classes/class.Wpshop.Payment.php:29 classes/class.Wpshop.Payment.php:44
+#: classes/class.Wpshop.Payment.php:59 classes/class.Wpshop.Payment.php:74
+#: classes/class.Wpshop.Payment.php:90 classes/class.Wpshop.Payment.php:105
+#: classes/class.Wpshop.Payment.php:122 classes/class.Wpshop.Payment.php:138
+#: classes/class.Wpshop.Payment.php:154 classes/class.Wpshop.Payment.php:171
+#: classes/class.Wpshop.Payment.php:188 classes/class.Wpshop.Payment.php:204
+#: classes/class.Wpshop.Payment.php:220 classes/class.Wpshop.Payment.php:236
+#: classes/class.Wpshop.Payment.php:251 classes/class.Wpshop.Payment.php:266
+#: classes/class.Wpshop.Payment.php:282 classes/class.Wpshop.Payment.php:298
+#: classes/class.Wpshop.Payment.php:313 classes/class.Wpshop.Payment.php:329
+msgid "Order type:"
+msgstr "Тип заказа:"
+
+#: classes/class.Wpshop.Payment.php:29
+msgid "Visit to our office"
+msgstr "Визит в наш офис"
+
+#: classes/class.Wpshop.Payment.php:30 classes/class.Wpshop.Payment.php:45
+#: classes/class.Wpshop.Payment.php:60 classes/class.Wpshop.Payment.php:75
+#: classes/class.Wpshop.Payment.php:91 classes/class.Wpshop.Payment.php:106
+#: classes/class.Wpshop.Payment.php:123 classes/class.Wpshop.Payment.php:139
+#: classes/class.Wpshop.Payment.php:155 classes/class.Wpshop.Payment.php:172
+#: classes/class.Wpshop.Payment.php:189 classes/class.Wpshop.Payment.php:205
+#: classes/class.Wpshop.Payment.php:221 classes/class.Wpshop.Payment.php:237
+#: classes/class.Wpshop.Payment.php:252 classes/class.Wpshop.Payment.php:267
+#: classes/class.Wpshop.Payment.php:283 classes/class.Wpshop.Payment.php:299
+#: classes/class.Wpshop.Payment.php:314 classes/class.Wpshop.Payment.php:330
+msgid "For making order please fill up the form:"
+msgstr "Для оформления заказа заполните эту форму:"
+
+#: classes/class.Wpshop.Payment.php:31 classes/class.Wpshop.Payment.php:46
+#: classes/class.Wpshop.Payment.php:61 classes/class.Wpshop.Payment.php:76
+#: classes/class.Wpshop.Payment.php:92 classes/class.Wpshop.Payment.php:107
+#: classes/class.Wpshop.Payment.php:124 classes/class.Wpshop.Payment.php:140
+#: classes/class.Wpshop.Payment.php:156 classes/class.Wpshop.Payment.php:173
+#: classes/class.Wpshop.Payment.php:190 classes/class.Wpshop.Payment.php:206
+#: classes/class.Wpshop.Payment.php:222 classes/class.Wpshop.Payment.php:238
+#: classes/class.Wpshop.Payment.php:253 classes/class.Wpshop.Payment.php:268
+#: classes/class.Wpshop.Payment.php:284 classes/class.Wpshop.Payment.php:300
+#: classes/class.Wpshop.Payment.php:315 classes/class.Wpshop.Payment.php:331
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: classes/class.Wpshop.Payment.php:32 classes/class.Wpshop.Payment.php:47
+#: classes/class.Wpshop.Payment.php:62 classes/class.Wpshop.Payment.php:77
+#: classes/class.Wpshop.Payment.php:93 classes/class.Wpshop.Payment.php:108
+#: classes/class.Wpshop.Payment.php:125 classes/class.Wpshop.Payment.php:141
+#: classes/class.Wpshop.Payment.php:157 classes/class.Wpshop.Payment.php:174
+#: classes/class.Wpshop.Payment.php:191 classes/class.Wpshop.Payment.php:207
+#: classes/class.Wpshop.Payment.php:223 classes/class.Wpshop.Payment.php:239
+#: classes/class.Wpshop.Payment.php:254 classes/class.Wpshop.Payment.php:269
+#: classes/class.Wpshop.Payment.php:285 classes/class.Wpshop.Payment.php:301
+#: classes/class.Wpshop.Payment.php:316 classes/class.Wpshop.Payment.php:332
+msgid "Contact phone"
+msgstr "Контактный телефон"
+
+#: classes/class.Wpshop.Payment.php:33 classes/class.Wpshop.Payment.php:48
+#: classes/class.Wpshop.Payment.php:63 classes/class.Wpshop.Payment.php:78
+#: classes/class.Wpshop.Payment.php:94 classes/class.Wpshop.Payment.php:109
+#: classes/class.Wpshop.Payment.php:126 classes/class.Wpshop.Payment.php:142
+#: classes/class.Wpshop.Payment.php:158 classes/class.Wpshop.Payment.php:175
+#: classes/class.Wpshop.Payment.php:192 classes/class.Wpshop.Payment.php:208
+#: classes/class.Wpshop.Payment.php:224 classes/class.Wpshop.Payment.php:240
+#: classes/class.Wpshop.Payment.php:255 classes/class.Wpshop.Payment.php:270
+#: classes/class.Wpshop.Payment.php:286 classes/class.Wpshop.Payment.php:302
+#: classes/class.Wpshop.Payment.php:317 classes/class.Wpshop.Payment.php:333
+#: classes/class.Wpshop.Profile.php:64 classes/class.Wpshop.ProfileWidget.php:45
+msgid "Address"
+msgstr "Адрес"
+
+#: classes/class.Wpshop.Payment.php:34 classes/class.Wpshop.Payment.php:49
+#: classes/class.Wpshop.Payment.php:64 classes/class.Wpshop.Payment.php:79
+#: classes/class.Wpshop.Payment.php:95 classes/class.Wpshop.Payment.php:110
+#: classes/class.Wpshop.Payment.php:127 classes/class.Wpshop.Payment.php:143
+#: classes/class.Wpshop.Payment.php:159 classes/class.Wpshop.Payment.php:176
+#: classes/class.Wpshop.Payment.php:193 classes/class.Wpshop.Payment.php:209
+#: classes/class.Wpshop.Payment.php:225 classes/class.Wpshop.Payment.php:241
+#: classes/class.Wpshop.Payment.php:256 classes/class.Wpshop.Payment.php:271
+#: classes/class.Wpshop.Payment.php:287 classes/class.Wpshop.Payment.php:303
+#: classes/class.Wpshop.Payment.php:318 classes/class.Wpshop.Payment.php:334
+#: classes/class.Wpshop.ProfileWidget.php:42 views/admin/orders.order.php:25
+#: views/admin/orders.php:130
+msgid "E-mail"
+msgstr "E-mail"
+
+#: classes/class.Wpshop.Payment.php:35 classes/class.Wpshop.Payment.php:50
+#: classes/class.Wpshop.Payment.php:65 classes/class.Wpshop.Payment.php:80
+#: classes/class.Wpshop.Payment.php:96 classes/class.Wpshop.Payment.php:111
+#: classes/class.Wpshop.Payment.php:128 classes/class.Wpshop.Payment.php:144
+#: classes/class.Wpshop.Payment.php:160 classes/class.Wpshop.Payment.php:177
+#: classes/class.Wpshop.Payment.php:194 classes/class.Wpshop.Payment.php:210
+#: classes/class.Wpshop.Payment.php:226 classes/class.Wpshop.Payment.php:242
+#: classes/class.Wpshop.Payment.php:257 classes/class.Wpshop.Payment.php:272
+#: classes/class.Wpshop.Payment.php:288 classes/class.Wpshop.Payment.php:304
+#: classes/class.Wpshop.Payment.php:319 classes/class.Wpshop.Payment.php:335
+msgid "Comment to the order"
+msgstr "Комментарий к заказу"
+
+#: classes/class.Wpshop.Payment.php:41
+msgid "Making order with cash payment to courier when your goods delivered"
+msgstr "Оформление заказа с оплатой наличными курьеру при получении товара"
+
+#: classes/class.Wpshop.Payment.php:42 classes/class.Wpshop.Payment.php:44
+#: views/admin/payments.php:107
+msgid "Cash to courier"
+msgstr "Наличными курьеру"
+
+#: classes/class.Wpshop.Payment.php:56
+msgid ""
+"Making order with payment at post-offce before receiving (Cash on delivery)"
+msgstr "Оформление заказа с оплатой на почте при получении товара"
+
+#: classes/class.Wpshop.Payment.php:57
+msgid "Cash on delivery"
+msgstr "Наложенный платеж"
+
+#: classes/class.Wpshop.Payment.php:59 views/RecycleBin.php:519
+msgid "Post"
+msgstr "Почта"
+
+#: classes/class.Wpshop.Payment.php:71 classes/class.Wpshop.Payment.php:74
+msgid "Making order using Web-money payment system"
+msgstr "Оформление заказа с оплатой через систему ‘Web-Money’"
+
+#: classes/class.Wpshop.Payment.php:82
+msgid ""
+"To pay your order, click the button above 'Pay WM'. <br/> After your payment, "
+"we will get data of your payment and our manager will contact you to arrange "
+"the delivery. <br/> Thank you for using our service!"
+msgstr ""
+"Для оплаты Вашего заказа нажмите кнопку выше 'Оплатить WM'.<br/>После "
+"совершения Вами оплаты заказа информация передается нам, и наш менеджер "
+"обязательно свяжется с Вами для уточнения деталей доставки.<br/>Благодарим, "
+"что воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:87 classes/class.Wpshop.Payment.php:90
+msgid "Cashless payment"
+msgstr "Безналичный расчет"
+
+#: classes/class.Wpshop.Payment.php:88
+msgid "Making order with payment using bank account (Non-cash payment)"
+msgstr "Оформление заказа с оплатой через банк (Безналичный расчет)"
+
+#: classes/class.Wpshop.Payment.php:103 classes/class.Wpshop.Payment.php:105
+msgid "Making order with payment using ‘RoboKassa.ru’ payment system"
+msgstr "Оформление заказа с оплатой через систему ‘RoboKassa.ru’"
+
+#: classes/class.Wpshop.Payment.php:114
+msgid ""
+"Select the appropriate payment method from the list of the available options "
+"and initiate the payment. When we will get payment data, our manager will "
+"contact you using your contact number for further details on your order. "
+"<br>Thank you for using our service!"
+msgstr ""
+"Выберите подходящий Вам способ оплаты из списка имеющихся вариантов и "
+"осуществите платеж. Данные по совершенному Вами платежу поступят нашим "
+"менеджерам, которые свяжутся с Вами по контактному телефону для уточнения "
+"деталей по Вашему заказу.<br> Благодарим, что воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:120
+msgid "Making order using Pay Pal payment system"
+msgstr "Оформление заказа с оплатой через систему PayPal"
+
+#: classes/class.Wpshop.Payment.php:122 classes/class.Wpshop.Payment.php:138
+msgid "Making order with payment using ‘Pay Pal’ payment system"
+msgstr "Оформление заказа с оплатой через систему ‘Pay Pal’"
+
+#: classes/class.Wpshop.Payment.php:130
+msgid ""
+"To pay your order, click the button above 'Pay PayPal'. <br/> After your "
+"payment, we will get data of your payment and our manager will contact you to "
+"arrange the delivery. <br/> Thank you for using our service!"
+msgstr ""
+"Для оплаты Вашего заказа нажмите кнопку выше 'Оплатить PayPal'.<br/>После "
+"совершения Вами оплаты заказа информация передается нам, и наш менеджер "
+"обязательно свяжется с Вами для уточнения деталей доставки.<br/>Благодарим, "
+"что воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:136
+msgid "Making order using Simplepay payment system"
+msgstr ""
+"Оформление заказа через систему Simplepay  товара из нашего магазина/офиса"
+
+#: classes/class.Wpshop.Payment.php:146
+msgid ""
+"To pay your order, click the button above 'Simplepay'. <br/> After your "
+"payment, we will get data of your payment and our manager will contact you to "
+"arrange the delivery. <br/> Thank you for using our service!"
+msgstr ""
+"Для оплаты Вашего заказа нажмите кнопку выше 'Оплатить в simplepay'.<br/>После "
+"совершения Вами оплаты заказа информация передается нам, и наш менеджер "
+"обязательно свяжется с Вами для уточнения деталей доставки.<br/>Благодарим, "
+"что воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:151 classes/class.Wpshop.Payment.php:154
+msgid "Making order using Edinaya kassa payment system"
+msgstr "Оформление заказа с оплатой через систему ‘Единая касса’"
+
+#: classes/class.Wpshop.Payment.php:163
+msgid ""
+"To pay your order, click the button above 'Pay EK'. <br/> After your payment, "
+"we will get data of your payment and our manager will contact you to arrange "
+"the delivery. <br/> Thank you for using our service!"
+msgstr ""
+"Для оплаты Вашего заказа нажмите кнопку выше 'Оплатить в Единой кассе'.<br/"
+">После совершения Вами оплаты заказа информация передается нам, и наш менеджер "
+"обязательно свяжется с Вами для уточнения деталей доставки.<br/>Благодарим, "
+"что воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:168 classes/class.Wpshop.Payment.php:171
+msgid "Making order using Yandex kassa payment system"
+msgstr "Оформление заказа с оплатой через систему ‘Yandex касса’"
+
+#: classes/class.Wpshop.Payment.php:180
+msgid ""
+"To pay your order, click the button above 'Pay Yandex kassa'. <br/> After your "
+"payment, we will get data of your payment and our manager will contact you to "
+"arrange the delivery. <br/> Thank you for using our service!"
+msgstr ""
+"Для оплаты Вашего заказа нажмите кнопку выше 'Оплатить Yandex касса'.<br/"
+">После совершения Вами оплаты заказа информация передается нам, и наш менеджер "
+"обязательно свяжется с Вами для уточнения деталей доставки.<br/>Благодарим, "
+"что воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:186
+msgid "Making order using Chronopay payment system"
+msgstr "Оформление заказа с оплатой через систему ‘Chronopay’"
+
+#: classes/class.Wpshop.Payment.php:188
+msgid "Making order with payment using ‘Chronopay’ payment system"
+msgstr "Оформление заказа с оплатой через систему ‘Chronopay’"
+
+#: classes/class.Wpshop.Payment.php:196
+msgid ""
+"To pay your order, click the button above 'Chronopay'. <br/> After your "
+"payment, we will get data of your payment and our manager will contact you to "
+"arrange the delivery. <br/> Thank you for using our service!"
+msgstr ""
+"Для оплаты Вашего заказа нажмите кнопку выше 'Оплатить Chronopay'.<br/>После "
+"совершения Вами оплаты заказа информация передается нам, и наш менеджер "
+"обязательно свяжется с Вами для уточнения деталей доставки.<br/>Благодарим, "
+"что воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:201 classes/class.Wpshop.Payment.php:204
+msgid "Making order using SOFORT payment system"
+msgstr "Оформление заказа с оплатой через систему ‘SOFORT’"
+
+#: classes/class.Wpshop.Payment.php:212
+msgid ""
+"To pay your order, click the button above 'Pay SOFORT'. <br/> After your "
+"payment, we will get data of your payment and our manager will contact you to "
+"arrange the delivery. <br/> Thank you for using our service!"
+msgstr ""
+"Для оплаты Вашего заказа нажмите кнопку выше 'Оплатить SOFORT'.<br/>После "
+"совершения Вами оплаты заказа информация передается нам, и наш менеджер "
+"обязательно свяжется с Вами для уточнения деталей доставки.<br/>Благодарим, "
+"что воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:217 classes/class.Wpshop.Payment.php:220
+msgid "Making order using Yandex money payment system"
+msgstr "Оформление заказа через систему Yandex деньги"
+
+#: classes/class.Wpshop.Payment.php:218
+msgid "Yandex money"
+msgstr "Yandex деньги"
+
+#: classes/class.Wpshop.Payment.php:228 classes/class.Wpshop.Payment.php:321
+#: classes/class.Wpshop.Payment.php:337
+msgid ""
+"To pay your order, click the button above . <br/> After your payment, we will "
+"get data of your payment and our manager will contact you to arrange the "
+"delivery. <br/> Thank you for using our service!"
+msgstr ""
+"Для оплаты Вашего заказа нажмите кнопку выше 'Оплатить'.<br/>После совершения "
+"Вами оплаты заказа информация передается нам, и наш менеджер обязательно "
+"свяжется с Вами для уточнения деталей доставки.<br/>Благодарим, что "
+"воспользовались нашим сервисом!"
+
+#: classes/class.Wpshop.Payment.php:233 classes/class.Wpshop.Payment.php:236
+msgid "Making order using Sberbank-online payment system"
+msgstr "Оформление заказа с оплатой через Сбербанк"
+
+#: classes/class.Wpshop.Payment.php:234 views/admin/payments.php:844
+msgid "Sberbank"
+msgstr "Сбербанк"
+
+#: classes/class.Wpshop.Payment.php:248 classes/class.Wpshop.Payment.php:251
+msgid "Making order using ICredit payment system"
+msgstr "Оформление заказа с оплатой через систему ‘ICredit’"
+
+#: classes/class.Wpshop.Payment.php:263 classes/class.Wpshop.Payment.php:266
+msgid "Making order using Tinkoff Bank"
+msgstr "Оформление заказа с оплатой через Тинькофф Банк"
+
+#: classes/class.Wpshop.Payment.php:264 views/admin/payments.php:236
+msgid "Tinkoff Bank"
+msgstr "Банк Тинькофф"
+
+#: classes/class.Wpshop.Payment.php:279 classes/class.Wpshop.Payment.php:282
+msgid "Making order using Artpay payment system"
+msgstr "Оформление заказа с оплатой через систему - Artpay"
+
+#: classes/class.Wpshop.Payment.php:280
+msgid "Artpay"
+msgstr ""
+
+#: classes/class.Wpshop.Payment.php:295 classes/class.Wpshop.Payment.php:298
+msgid "Making order using `Criptonator` payment system"
+msgstr "Оформление заказа с использованием платежной системы `Криптонатор`"
+
+#: classes/class.Wpshop.Payment.php:296 views/admin/payments.php:1599
+msgid "Cryptonator"
+msgstr ""
+
+#: classes/class.Wpshop.Payment.php:310 classes/class.Wpshop.Payment.php:313
+msgid "Making order using `Interkassa` payment system"
+msgstr "Оформление заказа с оплатой через систему ‘Interkassa’"
+
+#: classes/class.Wpshop.Payment.php:311
+msgid "Interkassa"
+msgstr ""
+
+#: classes/class.Wpshop.Payment.php:326 classes/class.Wpshop.Payment.php:329
+msgid "Making order using `Primearea` payment system"
+msgstr "Оформление заказа с оплатой через систему - Primearea"
+
+#: classes/class.Wpshop.Payment.php:327
+msgid "Primearea"
+msgstr ""
+
+#: classes/class.Wpshop.Payment.php:420 views/mail/client_confirm.php:16
+msgid "has paid"
+msgstr " оплачен"
+
+#: classes/class.Wpshop.Profile.php:63 classes/class.Wpshop.ProfileWidget.php:44
+msgid "Phone"
+msgstr "Телефоны"
+
+#: classes/class.Wpshop.Profile.php:65 classes/class.Wpshop.ProfileWidget.php:46
+msgid "Company name"
+msgstr "Имя компании"
+
+#: classes/class.Wpshop.Profile.php:66 classes/class.Wpshop.ProfileWidget.php:47
+msgid "Description"
+msgstr "Примечание"
+
+#: classes/class.Wpshop.Profile.php:95 classes/class.Wpshop.Profile.php:103
+msgid "Additional Information:"
+msgstr "Дополнительная информация:"
+
+#: classes/class.Wpshop.Profile.php:98
+msgid "Base discount in percents:"
+msgstr "Базовая скидка в процентах:"
+
+#: classes/class.Wpshop.Profile.php:106
+msgid "Your discount in percents is:"
+msgstr "Ваша скидка в процентах составляет:"
+
+#: classes/class.Wpshop.ProfileWidget.php:10
+msgid "WPShop profile widget"
+msgstr "Данные вашего профиля"
+
+#: classes/class.Wpshop.ProfileWidget.php:13
+msgid "This show profile information"
+msgstr "Профиль пользователя"
+
+#: classes/class.Wpshop.ProfileWidget.php:35
+msgid "You authorized as"
+msgstr "Вы авторизованы как"
+
+#: classes/class.Wpshop.ProfileWidget.php:35
+msgid "logout"
+msgstr "выйти"
+
+#: classes/class.Wpshop.ProfileWidget.php:36
+msgid "Your profile data:"
+msgstr "Данные вашего профиля"
+
+#: classes/class.Wpshop.ProfileWidget.php:36
+msgid "edit"
+msgstr "редактировать"
+
+#: classes/class.Wpshop.ProfileWidget.php:38 views/RecycleBin.php:254
+msgid "Login:"
+msgstr "Логин:"
+
+#: classes/class.Wpshop.ProfileWidget.php:39
+msgid "First Name:"
+msgstr "Имя:"
+
+#: classes/class.Wpshop.ProfileWidget.php:40
+msgid "Last Name:"
+msgstr "Фамилия:"
+
+#: classes/class.Wpshop.ProfileWidget.php:41
+msgid "Nick-name:"
+msgstr "Ник:"
+
+#: classes/class.Wpshop.ProfileWidget.php:43
+msgid "Site"
+msgstr "Сайт:"
+
+#: classes/class.Wpshop.ProfileWidget.php:51
+msgid "Hello"
+msgstr "Здравствуйте"
+
+#: classes/class.Wpshop.ProfileWidget.php:51
+msgid "Guest"
+msgstr "Гость"
+
+#: classes/class.Wpshop.ProfileWidget.php:66
+msgid "New title"
+msgstr "Заголовок"
+
+#: classes/class.Wpshop.ProfileWidget.php:71
+msgid "Title:"
+msgstr "Наименование"
+
+#: classes/class.Wpshop.RecycleBin.php:272
+msgid "New Order"
+msgstr "Новый заказ"
+
+#: classes/class.Wpshop.RecycleBin.php:284
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: classes/class.Wpshop.RecycleBin.php:584
+msgid "File"
+msgstr "Файл"
+
+#: classes/class.Wpshop.Shortcodes.php:105
+#: classes/class.Wpshop.Shortcodes.php:173
+msgid "by title"
+msgstr "по заголовку"
+
+#: classes/class.Wpshop.Shortcodes.php:106
+#: classes/class.Wpshop.Shortcodes.php:174
+msgid "by date"
+msgstr "по дате"
+
+#: classes/class.Wpshop.Shortcodes.php:107
+#: classes/class.Wpshop.Shortcodes.php:175
+msgid "by price"
+msgstr "по цене"
+
+#: classes/class.Wpshop.Shortcodes.php:108
+#: classes/class.Wpshop.Shortcodes.php:176
+msgid "randomly"
+msgstr "случайно"
+
+#: classes/class.Wpshop.Shortcodes.php:110
+#: classes/class.Wpshop.Shortcodes.php:178
+msgid "decrease"
+msgstr "по убыванию"
+
+#: classes/class.Wpshop.Shortcodes.php:111
+#: classes/class.Wpshop.Shortcodes.php:179
+msgid "increase"
+msgstr "по возрастанию"
+
+#: classes/class.Wpshop.Shortcodes.php:112
+#: classes/class.Wpshop.Shortcodes.php:180
+msgid " Buy"
+msgstr " Купить"
+
+#: classes/class.Wpshop.Shortcodes.php:113
+#: classes/class.Wpshop.Shortcodes.php:181
+msgid "Sort by"
+msgstr "Сортировать "
+
+#: views/RecycleBin.php:164
+msgid "Lenght of the login needs to be 3 to 16 characters."
+msgstr "Длина логина должна быть от 3 до 16 символов."
+
+#: views/RecycleBin.php:167
+msgid "Lenght of the password needs to be 3 to 16 characters."
+msgstr "Длина пароля должна быть от 3 до 16 символов."
+
+#: views/RecycleBin.php:170
+msgid "Incorrect E-mail."
+msgstr "Не корректный E-mail."
+
+#: views/RecycleBin.php:236
+msgid "Checkout as a registered user:"
+msgstr "Оформить заказ как зарегистрированный пользователь:"
+
+#: views/RecycleBin.php:237
+msgid "Registration on the site:"
+msgstr "Регистрация на сайте:"
+
+#: views/RecycleBin.php:247
+msgid "You have been successfull registered!"
+msgstr "Вы успешно зарегистрированны!"
+
+#: views/RecycleBin.php:260 views/admin/payments.php:894
+#: views/admin/payments.php:1132
+msgid "Password"
+msgstr "Пароль"
+
+#: views/RecycleBin.php:272 views/RecycleBin.php:277
+msgid "Enter"
+msgstr "Войти"
+
+#: views/RecycleBin.php:273 views/RecycleBin.php:276
+msgid "Register"
+msgstr "Регистрация"
+
+#: views/RecycleBin.php:284
+msgid "Or checkout as a guest"
+msgstr "Или оформить заказ как гость"
+
+#: views/RecycleBin.php:291
+msgid "Checkout as a guest"
+msgstr "Оформить заказ как гость"
+
+#: views/RecycleBin.php:310
+msgid "Select a payment method"
+msgstr "Выберите способ оплаты"
+
+#: views/RecycleBin.php:355
+msgid ""
+"Payment is made through a payment service Yandex kassa <br/> Small extra "
+"comission."
+msgstr "Оплата производится через платежный сервис 'Yandex касса'"
+
+#: views/RecycleBin.php:361 views/RecycleBin.php:430
+msgid "Yandex - Money"
+msgstr "Яндекс - Деньги"
+
+#: views/RecycleBin.php:365
+msgid "Credit card"
+msgstr "Пластиковые карты"
+
+#: views/RecycleBin.php:369 views/RecycleBin.php:450
+msgid "Terminals"
+msgstr "Терминалы"
+
+#: views/RecycleBin.php:373
+msgid "Mobile"
+msgstr "Мобильный телефон"
+
+#: views/RecycleBin.php:378
+msgid "Webmoney"
+msgstr ""
+
+#: views/RecycleBin.php:384
+msgid "Sberbank online"
+msgstr "Сбербанк-онлайн"
+
+#: views/RecycleBin.php:390
+msgid "QIWI wallet"
+msgstr "Qiwi"
+
+#: views/RecycleBin.php:396 views/RecycleBin.php:504
+msgid "Promsvyazbank"
+msgstr "Промсвязьбанк"
+
+#: views/RecycleBin.php:402
+msgid "MasterPass"
+msgstr ""
+
+#: views/RecycleBin.php:408
+msgid "Alfa-Click"
+msgstr "Альфа-Клик"
+
+#: views/RecycleBin.php:414
+msgid "Buy in credit"
+msgstr "Покупка в кредит "
+
+#: views/RecycleBin.php:424
+msgid ""
+"Payment is made through a payment service RoboKassa.ru <br/> Small extra "
+"comission."
+msgstr "Оплата производится через платежный сервис 'РобоКасса'"
+
+#: views/RecycleBin.php:439
+msgid "Terminals QIWI"
+msgstr "Терминалы QIWI"
+
+#: views/RecycleBin.php:454
+msgid "Alfa Click"
+msgstr "Альфа-Клик"
+
+#: views/RecycleBin.php:458
+msgid "MTS"
+msgstr "МТС"
+
+#: views/RecycleBin.php:462
+msgid "beeline"
+msgstr "Билайн"
+
+#: views/RecycleBin.php:466 views/RecycleBin.php:484
+msgid "mastercard"
+msgstr ""
+
+#: views/RecycleBin.php:474
+msgid "Payment is made through a payment service EK <br/> Small extra comission."
+msgstr "Оплата производится через платежный сервис 'Единая касса'"
+
+#: views/RecycleBin.php:479
+msgid "visa"
+msgstr ""
+
+#: views/RecycleBin.php:489
+msgid "Sberbank-online"
+msgstr "Сбербанк-онлайн"
+
+#: views/RecycleBin.php:494
+msgid "Tinkoff"
+msgstr "Тинькофф"
+
+#: views/RecycleBin.php:499
+msgid "Russian Standard Bank"
+msgstr "Банк Русский Стандарт"
+
+#: views/RecycleBin.php:509
+msgid "Alfa-bank"
+msgstr "Альфа-банк"
+
+#: views/RecycleBin.php:514
+msgid "Privat bank"
+msgstr "Приватбанк"
+
+#: views/RecycleBin.php:524
+msgid "Leader"
+msgstr "Лидер"
+
+#: views/RecycleBin.php:529 views/admin/payments.php:528
+msgid "WalletOne"
+msgstr "Единая касса"
+
+#: views/RecycleBin.php:534
+msgid "Ukrsib Bank"
+msgstr "УкрСиббанк"
+
+#: views/RecycleBin.php:539
+msgid "Cash Terminal"
+msgstr "Терминал"
+
+#: views/RecycleBin.php:544
+msgid "Contact"
+msgstr "Контакт"
+
+#: views/RecycleBin.php:549
+msgid "Cifrograd"
+msgstr "Цифроград"
+
+#: views/RecycleBin.php:554
+msgid "Euroset"
+msgstr "Евросеть"
+
+#: views/RecycleBin.php:559
+msgid "Svyaznoy"
+msgstr "Связной"
+
+#: views/RecycleBin.php:564
+msgid "Unistream"
+msgstr ""
+
+#: views/RecycleBin.php:569
+msgid "CellularWorld"
+msgstr "Сотовый мир"
+
+#: views/RecycleBin.php:574
+msgid "Faktura.ru"
+msgstr ""
+
+#: views/RecycleBin.php:579
+msgid "Okpay"
+msgstr ""
+
+#: views/RecycleBin.php:584
+msgid "Atm"
+msgstr "Банкомат"
+
+#: views/RecycleBin.php:589
+msgid "Bank Transfer"
+msgstr "Банковский перевод"
+
+#: views/RecycleBin.php:611
+msgid "Error: Not installed cforms II."
+msgstr "Ошибка: Не установлен cforms II."
+
+#: views/RecycleBinAfterSend.php:15
+msgid "Pay WM"
+msgstr "Оплатить WM"
+
+#: views/RecycleBinAfterSend.php:51
+msgid "Pay Interkassa"
+msgstr "Оплатить"
+
+#: views/RecycleBinAfterSend.php:109
+msgid ""
+"You have not configured a payment through `Cryptonator`, contact the site "
+"administrator"
+msgstr ""
+"Не настроен платеж через `Криптонатор`, обратитесь к администратору сайта"
+
+#: views/RecycleBinAfterSend.php:131
+msgid "Pay Tinkoff Bank"
+msgstr "Оплатить через Тинькофф банк"
+
+#: views/RecycleBinAfterSend.php:250
+msgid "Thank you for your order, please click the button `Pay` below to pay."
+msgstr "Спасибо за Ваш заказ, пожалуйста, нажмите кнопку ниже, чтобы заплатить."
+
+#: views/RecycleBinAfterSend.php:251
+msgid "Pay"
+msgstr "Оплатить"
+
+#: views/RecycleBinAfterSend.php:252 views/RecycleBinAfterSend.php:256
+#: views/RecycleBinAfterSend.php:376 views/RecycleBinAfterSend.php:380
+msgid "Refuse to pay and go to shopping cart"
+msgstr "Отказаться от оплаты и вернуться в корзину"
+
+#: views/RecycleBinAfterSend.php:255 views/RecycleBinAfterSend.php:379
+msgid "Error #"
+msgstr "Ошибка №"
+
+#: views/RecycleBinAfterSend.php:374
+msgid "Thank you for your order, please click the button below to pay."
+msgstr "Спасибо за Ваш заказ, пожалуйста, нажмите кнопку ниже, чтобы заплатить."
+
+#: views/RecycleBinAfterSend.php:375
+msgid "Pay ICredit"
+msgstr "Оплатить"
+
+#: views/RecycleBinAfterSend.php:410
+msgid "Pay Yandex kassa"
+msgstr "Оплатить Yandex касса"
+
+#: views/RecycleBinAfterSend.php:525
+msgid "Pay EK"
+msgstr "Оплатить в Единой кассе"
+
+#: views/RecycleBinAfterSend.php:593
+msgid "Pay Simplepay"
+msgstr "Оплатить Simplepay"
+
+#: views/RecycleBinAfterSend.php:690
+msgid "Pay Chronopay"
+msgstr "Оплатить Chronopay"
+
+#: views/RecycleBinPayment.php:150
+msgid "Street"
+msgstr "Улица"
+
+#: views/RecycleBinPayment.php:151
+msgid "House"
+msgstr "Дом"
+
+#: views/RecycleBinPayment.php:152
+msgid "Index"
+msgstr "Индекс"
+
+#: views/RecycleBinPayment.php:200
+msgid "Choose a delivery method:"
+msgstr "Выберите способ доставки:"
+
+#: views/RecycleBinPayment.php:258 views/RecycleBinPayment.php:270
+msgid "more..."
+msgstr "Подробнее о доставке..."
+
+#: views/RecycleBinPayment.php:289
+msgid "City"
+msgstr "Город"
+
+#: views/RecycleBinPayment.php:294
+msgid "calculate shipping costs"
+msgstr "Рассчитать стоимость доставки "
+
+#: views/RecycleBinPayment.php:335
+msgid "Delivery details"
+msgstr "Подробнее о доставке"
+
+#: views/admin/delivery.php:2 views/admin/orders.order.php:142
+#: views/admin/orders.order.php:145 views/admin/orders.order.php:149
+#: views/admin/orders.order.php:152 views/admin/payments.php:77
+#: views/admin/payments.php:120 views/admin/payments.php:162
+#: views/admin/payments.php:205 views/admin/payments.php:250
+#: views/admin/payments.php:321 views/admin/payments.php:377
+#: views/admin/payments.php:538 views/admin/payments.php:577
+#: views/admin/payments.php:700 views/admin/payments.php:867
+#: views/admin/payments.php:996 views/admin/payments.php:1081
+#: views/admin/payments.php:1162 views/admin/payments.php:1234
+#: views/admin/payments.php:1293 views/admin/payments.php:1381
+#: views/admin/payments.php:1462 views/admin/payments.php:1544
+#: views/admin/payments.php:1612 views/mail/admin.php:66 views/mail/admin.php:69
+#: views/mail/admin.php:75 views/mail/admin.php:78 views/mail/client.php:65
+#: views/mail/client.php:68 views/mail/client.php:74 views/mail/client.php:77
+#: views/mail/client1.php:47 views/mail/client1.php:50 views/mail/client1.php:56
+#: views/mail/client1.php:59
+msgid "Delivery"
+msgstr "Доставка"
+
+#: views/admin/delivery.php:7
+msgid "Country mail"
+msgstr "Почта по стране"
+
+#: views/admin/delivery.php:15 views/admin/delivery.php:33
+#: views/admin/delivery.php:51 views/admin/delivery.php:67
+msgid "Free shipping for orders of"
+msgstr "Бесплатная доставка при заказе от"
+
+#: views/admin/delivery.php:25
+msgid "International mail"
+msgstr "Международная почта"
+
+#: views/admin/delivery.php:43
+msgid "Express delivery"
+msgstr "Курьерская доставка"
+
+#: views/admin/delivery.php:78
+msgid "Yandex_delivery"
+msgstr "Yandex доставка"
+
+#: views/admin/delivery.php:82
+msgid "Enable support for Yandex delivery"
+msgstr "Активировать yandex доставку"
+
+#: views/admin/delivery.php:91
+msgid "Yandex cart widget code"
+msgstr "Код корзинного yandex виджета"
+
+#: views/admin/delivery.php:95
+msgid "Base lenght"
+msgstr "Базовая длина"
+
+#: views/admin/delivery.php:96 views/admin/delivery.php:100
+#: views/admin/delivery.php:104
+msgid "specify in centimeters, use `.` as decimal separator"
+msgstr ""
+"Указывать в сантиметрах, используйте `.` в качестве десятичного разделителя"
+
+#: views/admin/delivery.php:99
+msgid "Base width"
+msgstr "Базовая ширина"
+
+#: views/admin/delivery.php:103
+msgid "Base height"
+msgstr "Базовая высота"
+
+#: views/admin/delivery.php:107
+msgid "Base weight"
+msgstr "Базовый вес "
+
+#: views/admin/delivery.php:108
+msgid "specify in kilograms, use `.` as decimal separator"
+msgstr ""
+"указывать в килограммах, используйте `.` в качестве десятичного разделителя"
+
+#: views/admin/delivery.php:117 views/admin/orders.order.php:67
+#: views/admin/payments.php:1719 views/admin/settings.php:363
+#: views/admin/settings.php:412 views/admin/user.profile.php:24
+msgid "Save"
+msgstr "Сохранить"
+
+#: views/admin/export-import.php:26
+msgid "Advanced import/export"
+msgstr "Расширенный экспорт/импорт"
+
+#: views/admin/export-import.php:29
+msgid "Exports"
+msgstr "Экспорт"
+
+#: views/admin/export-import.php:32
+msgid "Main fields"
+msgstr "Основные поля"
+
+#: views/admin/export-import.php:47
+msgid "Custom fields (meta)"
+msgstr "Произвольные поля (meta)"
+
+#: views/admin/export-import.php:62
+msgid "The resulting fields"
+msgstr "Результирующие поля"
+
+#: views/admin/export-import.php:89
+msgid "Export categories"
+msgstr "Экспортировать категории"
+
+#: views/admin/export-import.php:90
+msgid "Export tags"
+msgstr "Экспортировать метки"
+
+#: views/admin/export-import.php:91 views/admin/orders.php:202
+msgid "Export"
+msgstr "Экспорт"
+
+#: views/admin/export-import.php:98 views/admin/export-import.php:101
+msgid "Import"
+msgstr "Импорт"
+
+#: views/admin/orders.order.php:2
+msgid "Back"
+msgstr "Назад"
+
+#: views/admin/orders.order.php:9
+msgid "Done orders"
+msgstr "Таблица заказов"
+
+#: views/admin/orders.order.php:13 views/admin/orders.php:107
+msgid "Date"
+msgstr "Дата"
+
+#: views/admin/orders.order.php:15 views/admin/orders.php:129
+msgid "Client"
+msgstr "Клиент"
+
+#: views/admin/orders.order.php:24
+msgid "ID"
+msgstr ""
+
+#: views/admin/orders.order.php:26
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+#: views/admin/orders.order.php:27
+msgid "Delivery method"
+msgstr "Способ доставки"
+
+#: views/admin/orders.order.php:34
+msgid "not selected"
+msgstr "не указано"
+
+#: views/admin/orders.order.php:39
+msgid "Order status"
+msgstr "Статус заказа"
+
+#: views/admin/orders.order.php:56
+msgid "Client IP"
+msgstr "IP клиента"
+
+#: views/admin/orders.order.php:61
+msgid "Order comment"
+msgstr "Комментарий к заказу"
+
+#: views/admin/orders.order.php:81
+msgid "Count"
+msgstr "Кол-во"
+
+#: views/admin/orders.order.php:83 views/admin/orders.order.php:131
+msgid "Total"
+msgstr "Итого"
+
+#: views/admin/orders.order.php:122 views/mail/client_confirm.php:41
+#: views/mail/client_confirm_custom.php:38
+msgid "Download"
+msgstr "Скачать"
+
+#: views/admin/orders.order.php:122
+msgid "Left download"
+msgstr "Осталось скачиваний"
+
+#: views/admin/orders.order.php:122
+msgid "Left time"
+msgstr "Осталось времени"
+
+#: views/admin/orders.order.php:136
+msgid "Discount"
+msgstr "Со скидкой:"
+
+#: views/admin/orders.order.php:156
+msgid "Delivery address"
+msgstr "Адрес доставки"
+
+#: views/admin/orders.order.php:159 views/mail/admin.php:89
+#: views/mail/client.php:88 views/mail/client1.php:69
+msgid "In all"
+msgstr "Всего"
+
+#: views/admin/orders.order.php:161 views/mail/admin.php:55
+#: views/mail/client.php:54 views/mail/client1.php:36
+msgid "Promocode: "
+msgstr "Промокод: "
+
+#: views/admin/orders.php:14
+msgid "Completed orders"
+msgstr "Таблица заказов"
+
+#: views/admin/orders.php:22 views/admin/orders.php:113
+msgid "Filter"
+msgstr "Фильтр"
+
+#: views/admin/orders.php:28 views/admin/orders.php:126
+msgid "Method of payment"
+msgstr "Форма оплаты"
+
+#: views/admin/orders.php:59
+msgid "Shipping Method"
+msgstr "Метод доставки"
+
+#: views/admin/orders.php:90 views/admin/orders.php:131
+msgid "Status"
+msgstr "Статус"
+
+#: views/admin/orders.php:108
+msgid "from"
+msgstr "с"
+
+#: views/admin/orders.php:109
+msgid "to"
+msgstr "по"
+
+#: views/admin/orders.php:125
+msgid "N"
+msgstr "№"
+
+#: views/admin/orders.php:127
+msgid "Delivery Method"
+msgstr "Метод доставки"
+
+#: views/admin/orders.php:128
+msgid "Date / Time"
+msgstr "Дата / Время"
+
+#: views/admin/orders.php:144
+msgid "undefined"
+msgstr "не определено"
+
+#: views/admin/orders.php:169
+msgid "not specified"
+msgstr "не указано"
+
+#: views/admin/orders.php:201
+msgid "Apply"
+msgstr "Применить"
+
+#: views/admin/payments.php:50
+msgid "Payment methods"
+msgstr "Способы оплаты"
+
+#: views/admin/payments.php:55
+msgid "Offline payments"
+msgstr "Оффлайн варианты оплаты"
+
+#: views/admin/payments.php:56
+msgid "Russian payment systems"
+msgstr "Российский платежные системы"
+
+#: views/admin/payments.php:57
+msgid "International payment systems"
+msgstr "Международные платежные системы"
+
+#: views/admin/payments.php:58
+msgid "Crypto currency"
+msgstr "Криптовалюта"
+
+#: views/admin/payments.php:67
+msgid "Enable support for self-delivery from a store / office."
+msgstr "Включить поддержку самовывоза из магазина/офиса."
+
+#: views/admin/payments.php:111
+msgid "Enable support for payment to courier"
+msgstr "Включить поддержку оплаты курьеру"
+
+#: views/admin/payments.php:149
+msgid "Cash on delivery (COD)"
+msgstr "Наложенный платеж"
+
+#: views/admin/payments.php:153
+msgid "Enable support for COD"
+msgstr "Включить поддержку наложного платежа"
+
+#: views/admin/payments.php:192
+msgid "Your bank account details"
+msgstr "Ваши банковские реквизиты"
+
+#: views/admin/payments.php:196
+msgid "Enable support of a payment through the bank"
+msgstr "Включить поддержку оплаты через банк"
+
+#: views/admin/payments.php:240
+msgid "Enable Tinkoff Bank"
+msgstr "Активировать платежи через Тинькофф Банк"
+
+#: views/admin/payments.php:272
+msgid "Gateway"
+msgstr "Адрес платежного шлюза"
+
+#: views/admin/payments.php:279
+msgid "Terminal"
+msgstr "Терминал"
+
+#: views/admin/payments.php:286
+msgid "Secret key"
+msgstr "Пароль"
+
+#: views/admin/payments.php:294 views/admin/payments.php:347
+#: views/admin/payments.php:403 views/admin/payments.php:656
+#: views/admin/payments.php:758 views/admin/payments.php:917
+#: views/admin/payments.php:1122 views/admin/payments.php:1265
+#: views/admin/payments.php:1338 views/admin/payments.php:1408
+#: views/admin/payments.php:1484 views/admin/payments.php:1569
+#: views/admin/payments.php:1702
+msgid "Success URL"
+msgstr "Success URL"
+
+#: views/admin/payments.php:298 views/admin/payments.php:351
+#: views/admin/payments.php:661 views/admin/payments.php:762
+#: views/admin/payments.php:922 views/admin/payments.php:1127
+#: views/admin/payments.php:1269 views/admin/payments.php:1342
+#: views/admin/payments.php:1488 views/admin/payments.php:1706
+msgid "Failed URL"
+msgstr "Failed URL"
+
+#: views/admin/payments.php:312
+msgid "Enable support of a payment using Web-Money"
+msgstr "Включить поддержку оплаты по Web-Money"
+
+#: views/admin/payments.php:343
+msgid "Your WM-purse"
+msgstr "Ваш WM-Кошелек"
+
+#: views/admin/payments.php:368
+msgid "Enable support of a payment using Yandex Money"
+msgstr "Включить поддержку оплаты через систему yandex money"
+
+#: views/admin/payments.php:399
+msgid "Your Yandex money account "
+msgstr "Ваш кошелек"
+
+#: views/admin/payments.php:407
+msgid "Add payments by Visa and MasterCard"
+msgstr "Оплата картами Visa и MasterCard"
+
+#: views/admin/payments.php:416
+msgid "Add payments from cellphones"
+msgstr "Оплата с мобильного телефона"
+
+#: views/admin/payments.php:425
+msgid "Require Payer Name"
+msgstr "Добавить поле ФИО плательщика"
+
+#: views/admin/payments.php:434
+msgid "Require Payer Email"
+msgstr "Добавить поле Email плательщика"
+
+#: views/admin/payments.php:443
+msgid "Require Payer Cell"
+msgstr "Добавить поле телефон плательщика"
+
+#: views/admin/payments.php:452
+msgid "Require Payer Adress"
+msgstr "Добавить поле адрес плательщика"
+
+#: views/admin/payments.php:468
+msgid "Payment through the merchant"
+msgstr "Оплата через шлюз"
+
+#: views/admin/payments.php:473
+msgid "Enable support of Merchant"
+msgstr "Включить поддержку оплаты через шлюз"
+
+#: views/admin/payments.php:525
+msgid "Select Merchant System"
+msgstr "Выберите шлюз"
+
+#: views/admin/payments.php:529
+msgid "Robokassa"
+msgstr "Robokassa"
+
+#: views/admin/payments.php:530
+msgid "Yandex kassa"
+msgstr "Yandex касса"
+
+#: views/admin/payments.php:558
+msgid "Robokassa Login"
+msgstr "Robokassa Логин"
+
+#: views/admin/payments.php:562
+msgid "Robokassa pass 1"
+msgstr "Пароль №  1"
+
+#: views/admin/payments.php:566
+msgid "Robokassa pass 2"
+msgstr "Пароль № 2"
+
+#: views/admin/payments.php:599
+msgid "Your WalletOne"
+msgstr "Номер Вашего кошелька "
+
+#: views/admin/payments.php:604 views/admin/payments.php:927
+#: views/admin/payments.php:1028 views/admin/payments.php:1413
+#: views/admin/payments.php:1493 views/admin/payments.php:1574
+#: views/admin/payments.php:1647
+msgid "Currency"
+msgstr "Валюта"
+
+#: views/admin/payments.php:619 views/admin/payments.php:941
+#: views/admin/payments.php:1041 views/admin/payments.php:1426
+#: views/admin/payments.php:1507 views/admin/payments.php:1665
+#: views/admin/settings.php:162
+msgid "Russian Ruble"
+msgstr "Российские рубли"
+
+#: views/admin/payments.php:620
+msgid "South African Rand"
+msgstr "Южно-Африканские ранды"
+
+#: views/admin/payments.php:621 views/admin/payments.php:939
+#: views/admin/payments.php:1039 views/admin/payments.php:1424
+#: views/admin/payments.php:1505 views/admin/payments.php:1586
+#: views/admin/payments.php:1666 views/admin/settings.php:160
+msgid "USD"
+msgstr "Американские доллары"
+
+#: views/admin/payments.php:622 views/admin/payments.php:940
+#: views/admin/payments.php:1040 views/admin/payments.php:1425
+#: views/admin/payments.php:1506 views/admin/payments.php:1667
+#: views/admin/settings.php:161
+msgid "euro"
+msgstr "Евро"
+
+#: views/admin/payments.php:623 views/admin/payments.php:942
+#: views/admin/payments.php:1508
+msgid "Ukrainian hryvnia"
+msgstr "Украинские гривны"
+
+#: views/admin/payments.php:624
+msgid "Kazakhstani tenge"
+msgstr "Казахстанские тенге"
+
+#: views/admin/payments.php:625
+msgid "Belarusian Ruble"
+msgstr "Белорусские рубли"
+
+#: views/admin/payments.php:631 views/admin/payments.php:948
+msgid "Tax system"
+msgstr "Система налогообложения"
+
+#: views/admin/payments.php:645 views/admin/payments.php:748
+msgid "Without VAT"
+msgstr "без НДС"
+
+#: views/admin/payments.php:646 views/admin/payments.php:749
+msgid "VAT at a rate of 0%"
+msgstr "НДС по ставке 0%"
+
+#: views/admin/payments.php:647 views/admin/payments.php:750
+msgid "VAT check at a rate of 10%"
+msgstr "НДС чека по ставке 10%"
+
+#: views/admin/payments.php:648 views/admin/payments.php:751
+msgid "VAT check at a rate of 18%"
+msgstr "НДС чека по ставке 18%"
+
+#: views/admin/payments.php:649 views/admin/payments.php:752
+msgid "VAT check at the estimated rate of 10/110"
+msgstr "НДС чека по расчетной ставке 10/110"
+
+#: views/admin/payments.php:650 views/admin/payments.php:753
+msgid "VAT check at the estimated rate of 18/118"
+msgstr "НДС чека по расчетной ставке 18/118"
+
+#: views/admin/payments.php:666
+msgid "Result URL"
+msgstr ""
+
+#: views/admin/payments.php:690 views/admin/payments.php:857
+#: views/admin/payments.php:1182 views/admin/payments.php:1224
+#: views/admin/payments.php:1371 views/admin/payments.php:1534
+msgid "Test paiments"
+msgstr "Тестовый режим"
+
+#: views/admin/payments.php:722
+msgid "Your Yandex kassa shop_id"
+msgstr "Ваш Yandex касса shopId"
+
+#: views/admin/payments.php:726
+msgid "Your Yandex kassa scid"
+msgstr "Ваш Yandex касса scid"
+
+#: views/admin/payments.php:730
+msgid "Your Yandex kassa shopPassword"
+msgstr "Ваш Yandex касса shopPassword"
+
+#: views/admin/payments.php:745
+msgid "VAT rate"
+msgstr "Ставка НДС"
+
+#: views/admin/payments.php:766
+msgid "сheckURL and paymentAvisoURL"
+msgstr "сheckURL и paymentAvisoURL"
+
+#: views/admin/payments.php:770
+msgid "Enable Sberbank online"
+msgstr "Активировать Сбербанк-онлайн"
+
+#: views/admin/payments.php:779
+msgid "Enable Webmoney"
+msgstr "Активировать оплату Webmoney"
+
+#: views/admin/payments.php:788
+msgid "Enable Qiwi"
+msgstr "Активировать Qiwi"
+
+#: views/admin/payments.php:797
+msgid "Enable Promsvyazbank"
+msgstr "Активировать Промсвязьбанк"
+
+#: views/admin/payments.php:806
+msgid "Enable MasterPass"
+msgstr "Активировать MasterPass"
+
+#: views/admin/payments.php:815
+msgid "Enable Alfa Click"
+msgstr "Активировать Альфа-Клик"
+
+#: views/admin/payments.php:824
+msgid "Enable buy in credit"
+msgstr "Активировать Покупку в кредит"
+
+#: views/admin/payments.php:848
+msgid "Enable Sberbank"
+msgstr "Активировать оплату через Сбербанк"
+
+#: views/admin/payments.php:889
+msgid "Login"
+msgstr "Логин"
+
+#: views/admin/payments.php:899
+msgid "One or two stage payments"
+msgstr "Одно- или дву-стадийная оплата"
+
+#: views/admin/payments.php:909
+msgid "One stage"
+msgstr "Одностадийные платежи"
+
+#: views/admin/payments.php:910
+msgid "Two stage"
+msgstr "Двухстадийные платежи"
+
+#: views/admin/payments.php:962
+msgid "common"
+msgstr "общая"
+
+#: views/admin/payments.php:963
+msgid "Simplified, income"
+msgstr "упрощённая, доход"
+
+#: views/admin/payments.php:964
+msgid "Simplified, income minus consumption"
+msgstr "упрощённая, доход минус расход"
+
+#: views/admin/payments.php:965
+msgid "Unified tax on imputed income"
+msgstr "единый налог на вменённый доход"
+
+#: views/admin/payments.php:966
+msgid "Unified agricultural tax"
+msgstr "единый сельскохозяйственный налог"
+
+#: views/admin/payments.php:967
+msgid "Patent tax system"
+msgstr "патентная система налогообложения"
+
+#: views/admin/payments.php:972
+msgid "Measurement of the quantity of a commodity item"
+msgstr "Мера измерения количества товарной позиции"
+
+#: views/admin/payments.php:986
+msgid "Enable Simplepay"
+msgstr "Активировать Simplepay"
+
+#: views/admin/payments.php:1018
+msgid "Outlet id"
+msgstr "Идентификатор торговой точки"
+
+#: views/admin/payments.php:1023 views/admin/payments.php:1255
+msgid "Secure key"
+msgstr "Секретный ключ"
+
+#: views/admin/payments.php:1070
+msgid "Enable Chronopay"
+msgstr "Активировать оплату Chronopay"
+
+#: views/admin/payments.php:1107
+msgid "Order_id enable"
+msgstr "Учитывать номер заказа"
+
+#: views/admin/payments.php:1117
+msgid "Product_id"
+msgstr ""
+
+#: views/admin/payments.php:1153
+msgid "Enable support of a payment through ArtPay"
+msgstr "Включить поддержку оплаты через систему  ArtPay"
+
+#: views/admin/payments.php:1191
+msgid "Artpay ID"
+msgstr ""
+
+#: views/admin/payments.php:1195
+msgid "Artpay pass 1"
+msgstr ""
+
+#: views/admin/payments.php:1199
+msgid "Artpay pass 2"
+msgstr ""
+
+#: views/admin/payments.php:1214
+msgid "Enable Primearea"
+msgstr ""
+
+#: views/admin/payments.php:1260
+msgid "Shopid"
+msgstr ""
+
+#: views/admin/payments.php:1283
+msgid "Enable SOFORT banking"
+msgstr "Активировать оплату SOFORT"
+
+#: views/admin/payments.php:1316
+msgid "Config key"
+msgstr ""
+
+#: views/admin/payments.php:1321
+msgid "You need to enter your configkey or userid:projektid:apikey"
+msgstr "Введите  Ваш configkey или userid:projektid:apikey"
+
+#: views/admin/payments.php:1325
+msgid "Notification email"
+msgstr "E-mail для оповещения о платеже"
+
+#: views/admin/payments.php:1329
+msgid "Trust pending payments"
+msgstr "Отложенные платежи"
+
+#: views/admin/payments.php:1346
+msgid "resultURL"
+msgstr ""
+
+#: views/admin/payments.php:1361
+msgid "Enable PayPal"
+msgstr "Активировать PayPal"
+
+#: views/admin/payments.php:1403
+msgid "Saller Email"
+msgstr "Email продавца"
+
+#: views/admin/payments.php:1444
+msgid "Enable Interkassa"
+msgstr "Включить Interkassa"
+
+#: views/admin/payments.php:1453
+msgid "shop_id"
+msgstr ""
+
+#: views/admin/payments.php:1457
+msgid "secret key"
+msgstr "секретный ключ"
+
+#: views/admin/payments.php:1525
+msgid "Enable ICredit"
+msgstr "Активировать ICredit"
+
+#: views/admin/payments.php:1565
+msgid "GroupPrivateToken"
+msgstr ""
+
+#: views/admin/payments.php:1585
+msgid "Shekel"
+msgstr "Шекель"
+
+#: views/admin/payments.php:1587
+msgid "EUR"
+msgstr "Евро"
+
+#: views/admin/payments.php:1603
+msgid "Enable support for Cripto"
+msgstr "Активировать Криптонатор"
+
+#: views/admin/payments.php:1633
+msgid "Merchant_id"
+msgstr ""
+
+#: views/admin/payments.php:1640
+msgid "Secret"
+msgstr "Секретный ключ"
+
+#: views/admin/payments.php:1668
+msgid "blackcoin"
+msgstr ""
+
+#: views/admin/payments.php:1669
+msgid "bitcoin"
+msgstr ""
+
+#: views/admin/payments.php:1670
+msgid "dash"
+msgstr ""
+
+#: views/admin/payments.php:1671
+msgid "dogecoin"
+msgstr ""
+
+#: views/admin/payments.php:1672
+msgid "emercoin"
+msgstr ""
+
+#: views/admin/payments.php:1673
+msgid "litecoin"
+msgstr ""
+
+#: views/admin/payments.php:1674
+msgid "peercoin"
+msgstr ""
+
+#: views/admin/payments.php:1678
+msgid "Language of payment form"
+msgstr "Язык платежной формы"
+
+#: views/admin/payments.php:1692
+msgid "Russian"
+msgstr "Русский"
+
+#: views/admin/payments.php:1693
+msgid "English"
+msgstr "Английский"
+
+#: views/admin/payments.php:1694
+msgid "Deutsch"
+msgstr "Немецкий "
+
+#: views/admin/payments.php:1695
+msgid "Spanish"
+msgstr "Испанский"
+
+#: views/admin/payments.php:1696
+msgid "French"
+msgstr "Французкий"
+
+#: views/admin/payments.php:1697
+msgid "Chinese"
+msgstr "Китайский"
+
+#: views/admin/payments.php:1711
+msgid "To activate the payment system, click the button below."
+msgstr "для активации платежной системы нажмите кнопку ниже"
+
+#: views/admin/payments.php:1712
+msgid "Activate account"
+msgstr "Активировать аккаунт"
+
+#: views/admin/settings.php:2
+msgid "Settings of WP-Shop"
+msgstr "Основные настройки интернет-магазина WP-Shop"
+
+#: views/admin/settings.php:10
+msgid "Options:"
+msgstr "Настройки:"
+
+#: views/admin/settings.php:16
+msgid "Choose a style file"
+msgstr "Выберите файл стилей"
+
+#: views/admin/settings.php:28
+msgid "Available Forms"
+msgstr "Доступные формы"
+
+#: views/admin/settings.php:49
+msgid "Up"
+msgstr "Вверху"
+
+#: views/admin/settings.php:50
+msgid "Down"
+msgstr "Внизу"
+
+#: views/admin/settings.php:54
+msgid "Location of price block"
+msgstr "Позиция блока \"цены\""
+
+#: views/admin/settings.php:59
+msgid "Display price of goods in records and archives:"
+msgstr "Отображать цену товара в записях и архивах:"
+
+#: views/admin/settings.php:66
+msgid "Show payment method"
+msgstr "Показывать способ оплаты"
+
+#: views/admin/settings.php:72
+msgid "Activate custom mail editor:"
+msgstr "Активировать редактор писем:"
+
+#: views/admin/settings.php:78
+msgid "The behavior of the buy button:"
+msgstr "Поведение скрипта при нажатии на кнопку купить:"
+
+#: views/admin/settings.php:86
+msgid "Nothing to do"
+msgstr "Ничего не делать"
+
+#: views/admin/settings.php:87
+msgid "Show the cart widget"
+msgstr "Предлагать выбор перехода в корзину или продолжения покупок"
+
+#: views/admin/settings.php:88
+msgid "Move to cart page"
+msgstr "Переход на страницу корзины"
+
+#: views/admin/settings.php:94
+msgid "How to sort price:"
+msgstr "Сортировать цены:"
+
+#: views/admin/settings.php:102
+msgid "Sorting disabled"
+msgstr "Не сортировать цены"
+
+#: views/admin/settings.php:103
+msgid "Sorting in alphabetical order"
+msgstr "Сортировать по возрастанию "
+
+#: views/admin/settings.php:104
+msgid "Sorting in reverse alphabetical order"
+msgstr "Сортировать по убыванию "
+
+#: views/admin/settings.php:110
+msgid "Rounding prices in shop widget:"
+msgstr "Округлять цену в виджете магазина:"
+
+#: views/admin/settings.php:116
+msgid "E-mail notification about shopping"
+msgstr "E-mail уведомления о покупках"
+
+#: views/admin/settings.php:121
+msgid "User name for E-mail notification"
+msgstr "Имя пользователя для e-mail оповещений о заказе "
+
+#: views/admin/settings.php:127
+msgid "Send email to admin if order has paid:"
+msgstr "Оповещать об администратора об успешной оплате"
+
+#: views/admin/settings.php:133
+msgid "Send email to client if order has paid:"
+msgstr "Отправлять email клиенту если заказ оплачен:"
+
+#: views/admin/settings.php:138
+msgid "Tracking ID for E-commerce Google Analytics"
+msgstr "ID для Google Analytics"
+
+#: views/admin/settings.php:143
+msgid "Tracking ID for E-commerce Yandex metrika"
+msgstr "ID для Yandex метрики"
+
+#: views/admin/settings.php:149
+msgid "Currency for E-commerce Google Analytics"
+msgstr "Валюта для Google Analytics"
+
+#: views/admin/settings.php:163
+msgid "Ukrainian Hrivna"
+msgstr "Украинские гривны"
+
+#: views/admin/settings.php:164
+msgid "British Pounds"
+msgstr "Британские Фунты"
+
+#: views/admin/settings.php:171
+msgid "Disable kind of authorization"
+msgstr "Отключить один из способов авторизации в магазине"
+
+#: views/admin/settings.php:180
+msgid "no"
+msgstr "нет"
+
+#: views/admin/settings.php:181
+msgid "dissable register form"
+msgstr "Отключить авторизацию пользователей"
+
+#: views/admin/settings.php:182
+msgid "disable guest shoping"
+msgstr "Отключить роль гостя"
+
+#: views/admin/settings.php:197
+msgid "Erase shop data"
+msgstr "Данные магазина очищены"
+
+#: views/admin/settings.php:211
+msgid "Loginza setting"
+msgstr "Установки Логинзы"
+
+#: views/admin/settings.php:235
+msgid "Link in format Yandex-XML. Enter it if the site in the Yandex.Market"
+msgstr ""
+"Линк в формате Yandex-XML. Укажите его при публикации сайта в системе Yandex."
+"Market"
+
+#: views/admin/settings.php:241
+msgid ""
+"This XML-file contains a list of items with not emptied price in your store."
+msgstr ""
+"Этот XML-файл содержит в себе список тех товаров Вашего магазина, у которых "
+"указана какая-либо цена."
+
+#: views/admin/settings.php:243
+msgid ""
+"To exclude items from the list, add a custom field <code>noyml</code> with a "
+"value of 1."
+msgstr ""
+"Для того чтобы исключить товар из списка, добавьте произвольное поле "
+"<code>noyml</code> со значением 1."
+
+#: views/admin/settings.php:245
+msgid ""
+"Read details about this option on the page: <a href=\"http://www.wp-shop.ru/"
+"yandex-market/\" target=\"_blank\">Publication items Yandex.market</a>"
+msgstr ""
+"Подробнее об этой опции на этой странице - <a href=\"http://www.wp-shop.ru/"
+"blog/yandex-market/\" target=\"_blank\">Публикация товаров в Яндекс.Маркете</a>"
+
+#: views/admin/settings.php:254
+msgid "Cart"
+msgstr "Корзина"
+
+#: views/admin/settings.php:257
+msgid "Options of minimum order:"
+msgstr "Опции минимального заказа:"
+
+#: views/admin/settings.php:260
+msgid "The minimum sum of order:"
+msgstr "Минимальная сумма заказа:"
+
+#: views/admin/settings.php:266
+msgid "Message to the buyer:"
+msgstr "Сообщение для покупателя:"
+
+#: views/admin/settings.php:272
+msgid "Link to the condition of delivery:"
+msgstr "Линк на условие доставки:"
+
+#: views/admin/settings.php:276
+msgid "Link to the return to shopping:"
+msgstr "Ссылка для возврата к покупкам:"
+
+#: views/admin/settings.php:280
+msgid "Link to to the cart page:"
+msgstr "Ссылка на страницу корзины:"
+
+#: views/admin/settings.php:284
+msgid "Activate Promocodes:"
+msgstr "Активировать промокоды:"
+
+#: views/admin/settings.php:293
+msgid "Discount:"
+msgstr "Со скидкой:"
+
+#: views/admin/settings.php:308
+msgid "Item"
+msgstr "Товар"
+
+#: views/admin/settings.php:315
+msgid "Currency:"
+msgstr "Валюта:"
+
+#: views/admin/settings.php:319
+msgid "Text if the product is no longer available:"
+msgstr "Текст (HTML), если товара нет в наличии:"
+
+#: views/admin/settings.php:332
+msgid "TopShop partnership"
+msgstr "TopShop партнёрская программа"
+
+#: views/admin/settings.php:339
+msgid "Partner id"
+msgstr "ID в партнерской  программе"
+
+#: views/admin/settings.php:344
+msgid "Partner password"
+msgstr "Пароль"
+
+#: views/admin/settings.php:349
+msgid "Project id"
+msgstr ""
+"Идентификатор проекта партнёрской программы (используется совместно с плагином "
+"wp-shop-yml-parser)"
+
+#: views/admin/settings.php:370
+msgid "Information from the WP-Shop developers"
+msgstr "Информация от разработчиков плагина WP-Shop"
+
+#: views/admin/settings.php:381
+msgid ""
+"<strong>Authors of the plugin:</strong> Alexander Kuznetsov, Abramov Kirill"
+msgstr "<strong>Авторы плагина:</strong> Александр Кузнецов, Абрамов Кирилл"
+
+#: views/admin/settings.php:382
+msgid ""
+"<strong>The Website plugin:</strong> <a href=\"http://www.wp-shop.ru/\" target="
+"\"_blank\">www.wp-shop.ru</a>"
+msgstr ""
+"<strong>Сайт плагина:</strong> <a href=\"http://wp-shop.ru/\" target=\"_blank"
+"\">wp-shop.ru</a>"
+
+#: views/admin/settings.php:392
+msgid "META-box for display a price list"
+msgstr "META-поле для вывода в прайс-листах"
+
+#: views/admin/settings.php:409
+msgid ""
+"Here you can specify the name of an additional <code>post_meta</​​code>, which "
+"you want to display in pricelists"
+msgstr ""
+"Здесь можно указать наименование дополнительного <code>post_meta</code>, "
+"которое Вы хотите показывать в прайслистах"
+
+#: views/admin/settings.php:420
+msgid "Currency update."
+msgstr "Обновление по валюте."
+
+#: views/admin/user.profile.php:9
+msgid "User Profile"
+msgstr "Профиль пользователя"
+
+#: views/admin/user.profile.php:13
+msgid "Shipping Address:"
+msgstr "Адрес доставки:"
+
+#: views/admin/user.profile.php:17
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#: views/good.widget.inc.php:60
+msgid "In stock "
+msgstr "Остаток на складе"
+
+#: views/good.widget.inc.php:62
+msgid " pcs."
+msgstr "шт."
+
+#: views/mail/admin.php:50
+msgid "Discount price"
+msgstr "Цена со скидкой"
+
+#: views/mail/admin.php:84 views/mail/client.php:83 views/mail/client1.php:65
+msgid "Delivery address: "
+msgstr "Адрес доставки:"
+
+#: views/mail/client.php:49 views/mail/client1.php:31
+msgid "Price with discount"
+msgstr "Цена со скидкой"
+
+#: views/mail/client_confirm.php:14
+msgid "Hi"
+msgstr "Здравствуйте"
+
+#: views/mail/client_confirm.php:19
+msgid "You ordered"
+msgstr "Вы заказали"
+
+#: views/vitrina.php:25
+msgid "Details"
+msgstr "Подробнее"
+
+#: views/wpshop_meta_widget.php:149 views/wpshop_meta_widget.php:223
+msgid "Name of"
+msgstr "Наименование"
+
+#: views/wpshop_meta_widget.php:149 views/wpshop_meta_widget.php:153
+#: views/wpshop_meta_widget.php:157 views/wpshop_meta_widget.php:161
+#: views/wpshop_meta_widget.php:223 views/wpshop_meta_widget.php:228
+#: views/wpshop_meta_widget.php:238
+msgid "product variant"
+msgstr "варианта товара"
+
+#: views/wpshop_meta_widget.php:150 views/wpshop_meta_widget.php:224
+msgid "Specify the name of the"
+msgstr "Укажите наименование"
+
+#: views/wpshop_meta_widget.php:150 views/wpshop_meta_widget.php:224
+msgid "product variant (for example \\\"Size XXL\\\" or \\\"blue\\\") or SKU"
+msgstr ""
+"варианта товара (например \\\"размер XXL\\\" или \\\"цвет синий\\\") или "
+"артикул"
+
+#: views/wpshop_meta_widget.php:153 views/wpshop_meta_widget.php:228
+msgid "Cost of"
+msgstr "Cтоимость"
+
+#: views/wpshop_meta_widget.php:154 views/wpshop_meta_widget.php:229
+msgid "Specify the cost of the product variant #"
+msgstr "Укажите стоимость варианта товара #"
+
+#: views/wpshop_meta_widget.php:157
+msgid "Balance of #"
+msgstr "Остаток варианта #"
+
+#: views/wpshop_meta_widget.php:158 views/wpshop_meta_widget.php:234
+#: views/wpshop_meta_widget.php:291
+msgid ""
+"If the product in unlimited quantities - leave the field blank. If the product "
+"is no longer in stock - insert 0 (zero), this product will not be available "
+"for order"
+msgstr ""
+"Если товар в неограниченном количестве - оставьте поле пустым. Если товара на "
+"складе нет - ставьте 0 (ноль), товар не будет доступен для заказа"
+
+#: views/wpshop_meta_widget.php:161 views/wpshop_meta_widget.php:238
+msgid "Number of units"
+msgstr "Кол-во единиц"
+
+#: views/wpshop_meta_widget.php:162 views/wpshop_meta_widget.php:239
+msgid ""
+"The preset number of product that the customer can put in the cart. Can be "
+"used when the goods are measured by the large number of units"
+msgstr ""
+"Предустановленное кол-во единиц товара, которое клиент может положить в "
+"корзину. Может быть использовано, когда товар измеряется большим количеством "
+"единиц"
+
+#: views/wpshop_meta_widget.php:205
+msgid "Main image "
+msgstr "Основное изображение "
+
+#: views/wpshop_meta_widget.php:206
+msgid ""
+"Optimal parameters of image: width up to 500px, file size not more than 50 KB. "
+"Show full-length pictures inside post-content by link or button"
+msgstr ""
+"Оптимальные параметры картинки: ширина до 500px, размер файла не более 50кб. "
+"Полноформатные картинки показывайте внутри контента записи ссылкой или кнопкой"
+
+#: views/wpshop_meta_widget.php:209
+msgid "Image #"
+msgstr "Изображение #"
+
+#: views/wpshop_meta_widget.php:210
+msgid ""
+"Works only in <a href=\"http://demo.wp-shop.ru\" target=\"_blank\">paid WP "
+"Shop themes</a>"
+msgstr ""
+"Работает только на <a href=\"http://demo.wp-shop.ru\" target=\"_blank"
+"\">платных темах WP Shop</a>"
+
+#: views/wpshop_meta_widget.php:215 views/wpshop_meta_widget.php:394
+msgid "Download "
+msgstr "Загрузить изображение"
+
+#: views/wpshop_meta_widget.php:233
+msgid "Balance of #"
+msgstr "Остаток варианта #"
+
+#: views/wpshop_meta_widget.php:233
+msgid "product in stock"
+msgstr "на складе"
+
+#: views/wpshop_meta_widget.php:253
+msgid "Product type"
+msgstr "Тип товара"
+
+#: views/wpshop_meta_widget.php:254
+msgid ""
+"Specify the type of this product: simple product; variant product; product "
+"with options; digital (virtual) product"
+msgstr ""
+"Укажите тип данного товара: простой товар; вариативный товар; товар с опциями; "
+"цифровой (виртуальный) товар."
+
+#: views/wpshop_meta_widget.php:256
+msgid "This entry is not a product"
+msgstr "Эта запись не является товаром"
+
+#: views/wpshop_meta_widget.php:257
+msgid "simple product"
+msgstr "простой товар"
+
+#: views/wpshop_meta_widget.php:258
+msgid ""
+"variant product (product with several different variants with different prices)"
+msgstr ""
+"вариативный товар (товар, имеющий несколько разных вариантов с разной ценой)"
+
+#: views/wpshop_meta_widget.php:259
+msgid ""
+"product with options (product have some options with mark-up to main "
+"cost value or without it)"
+msgstr ""
+"товар с опциями (товар, имеющий опции с наценкой к основной стоимости или без "
+"нее)"
+
+#: views/wpshop_meta_widget.php:260
+msgid "digital (virtual) goods - if the product is a file"
+msgstr "цифровой (виртуальный) товар - если товаром является файл"
+
+#: views/wpshop_meta_widget.php:267
+msgid "Price, quantity"
+msgstr "Цена, склад"
+
+#: views/wpshop_meta_widget.php:268
+msgid "Size, weight"
+msgstr "Размер, вес"
+
+#: views/wpshop_meta_widget.php:269
+msgid "Product images"
+msgstr "Изображения товара"
+
+#: views/wpshop_meta_widget.php:270
+msgid "Other parameters"
+msgstr "Прочие параметры"
+
+#: views/wpshop_meta_widget.php:271
+msgid "Product variations"
+msgstr "Вариации товара"
+
+#: views/wpshop_meta_widget.php:272
+msgid "Product options"
+msgstr "Опции товара"
+
+#: views/wpshop_meta_widget.php:273
+msgid "Options of digital (virtual) goods"
+msgstr "Параметры цифрового (виртуального) товара"
+
+#: views/wpshop_meta_widget.php:278
+msgid "The base price of the product "
+msgstr "Базовая стоимость товара "
+
+#: views/wpshop_meta_widget.php:279
+msgid "Specify the price of product"
+msgstr "Укажите стоимость товара"
+
+#: views/wpshop_meta_widget.php:284
+msgid "Old price "
+msgstr "Старая цена "
+
+#: views/wpshop_meta_widget.php:285
+msgid ""
+" <strong>Warning! </strong> This option works only in <a href = \"http://demo."
+"wp-shop.ru\" target = \"_blank\" > paid  WP Shop themes </a>! Set the \"old "
+"price\" of the product to show that the product have discount"
+msgstr ""
+"<strong>Внимание!</strong> Параметр работает только в <a href=\"http://demo.wp-"
+"shop.ru\" target=\"_blank\">платных темах WP Shop</a>! Задайте \"старую цену\" "
+"товара для показа, что на данный товар предоставляется скидка"
+
+#: views/wpshop_meta_widget.php:290
+msgid "Balance of product in stock "
+msgstr "Остаток товара на складе "
+
+#: views/wpshop_meta_widget.php:296
+msgid "Number of units "
+msgstr "Кол-во единиц товара "
+
+#: views/wpshop_meta_widget.php:297
+msgid ""
+"The preset number of units of the item that the customer can put in the "
+"basket. Can be used when the goods are measured by the large number of units"
+msgstr ""
+"Предустановленное кол-во единиц товара, которое клиент может положить в "
+"корзину. Может быть использовано, когда товар измеряется большим количеством "
+"единиц"
+
+#: views/wpshop_meta_widget.php:302
+msgid "Show related products "
+msgstr "Показывать связанные товары "
+
+#: views/wpshop_meta_widget.php:303
+msgid ""
+"<strong>Warning!</strong> This option works only in <a href = \"http://demo.wp-"
+"shop.ru\" target = \"_blank\" > paid WP Shop themes</a>! Enables rotation of "
+"goods in product page. The principle of output similar products: by the same "
+"tag as the root product (allows arbitrary to associate products with each "
+"other tags) If the tag is not defined - dispalays from the same category as "
+"the root product. Sort by novelty."
+msgstr ""
+"<strong>Внимание!</strong> Параметр работает только в <a href = \"http://demo."
+"wp-shop.ru\" target = \"_blank\" >платных темах WP Shop</a>! Включает ротацию "
+"внутри товара похожих товаров. Принцип вывода похожих товаров: по тому-же "
+"тегу, что и корневой товар (позволяет произвольно связывать товары между собой "
+"тегами); если не определен тег — выводит из той же рубрики, что и корневой "
+"товар. Сортирует по новизне."
+
+#: views/wpshop_meta_widget.php:309
+msgid "New product "
+msgstr "Товар - новинка "
+
+#: views/wpshop_meta_widget.php:310
+msgid ""
+"<strong>Warning!</strong> This option works only in <a href = \"http://demo.wp-"
+"shop.ru\" target = \"_blank\"> paid WP Shop themes</a>! Enable option to "
+"indicate the product as new."
+msgstr ""
+"<strong>Внимание!</strong> Параметр работает только в <a href = \"http://demo."
+"wp-shop.ru\" target = \"_blank\" >платных темах WP Shop</a>! Включите "
+"параметр, чтобы обозначить этот товар как новый."
+
+#: views/wpshop_meta_widget.php:316
+msgid "Affiliate product "
+msgstr "Партнерский товар "
+
+#: views/wpshop_meta_widget.php:317
+msgid ""
+"<strong>Warning!</strong> This option works only in <a href = \"http://demo.wp-"
+"shop.ru\" target = \"_blank\"> paid WP Shop themes</a>! Set the address of the "
+"product page on the store-provider site. Sets as a URL-address. Causes that by "
+"clicking on the button \"buy\" products placed in the shop cart, and the "
+"visitor is redirected to the specified URL. The option made for the sale of "
+"products on affiliate programs other stores"
+msgstr ""
+"<strong>Внимание!</strong> Параметр работает только в <a href = \"http://demo."
+"wp-shop.ru\" target = \"_blank\" >платных темах WP Shop</a>!  Задайте адрес "
+"страницы товара на сайте магазина-поставщика. Задается как URL-адрес. Приводит "
+"к тому что по клику на кнопку «купить» товар не кладется в корзину, а "
+"посетитель перенаправляется на заданный в параметре URL. Опция сделана для "
+"продаж товаров по партнерским программам других магазинов."
+
+#: views/wpshop_meta_widget.php:324
+msgid "Weight, kg "
+msgstr "Вес, кг "
+
+#: views/wpshop_meta_widget.php:325
+msgid "Enter the weight in kg, e.g. 0.25"
+msgstr "укажите вес товара в кг, например 0.25"
+
+#: views/wpshop_meta_widget.php:330
+msgid "Length in package, cm "
+msgstr "Длина в упаковке, см "
+
+#: views/wpshop_meta_widget.php:331
+msgid "specify the length of the product in package, in cm: for example 25"
+msgstr "укажите длину товара в упаковке, в см: например 25"
+
+#: views/wpshop_meta_widget.php:336
+msgid "Width in package, cm "
+msgstr "Ширина в упаковке, см "
+
+#: views/wpshop_meta_widget.php:337
+msgid "specify the width of the goods in the package in cm, for example: 25"
+msgstr "укажите ширину товара в упаковке , в см: например 25"
+
+#: views/wpshop_meta_widget.php:342
+msgid "Height in package, cm "
+msgstr "Высота в упаковке, см "
+
+#: views/wpshop_meta_widget.php:343
+msgid "specify the height of product in package, in cm: for example 25"
+msgstr "укажите высоту товара в упаковке, в см: например 25"
+
+#: views/wpshop_meta_widget.php:352
+msgid "The image for \"showcases\""
+msgstr "Изображение для \"витрины\""
+
+#: views/wpshop_meta_widget.php:353
+msgid ""
+"HTML-code of the product pictures, which are displayed in a showcase, the "
+"output output by shortcode. It is NOT specified AS a PATH (for example: http://"
+"site.ru/files/image.jpg), as well as HTML pictures. This field can be any HTML "
+"code, as well as shortcodes of other plugins. <strong> important! </strong> "
+"Does not apply to paid WpShop themes, has its own processing of images"
+msgstr ""
+"HTML-код картинки товара, которая показывается в витрине магазина, выводимой "
+"шорткодом. Указывается именно НЕ КАК ПУТЬ (например: http://site.ru/files/"
+"image.jpg), а как HTML-код картинки. В этом поле может быть ЛЮБОЙ HTML-код, а "
+"так же шорткоды других плагинов. <strong>Важно!</strong> Не применяется на "
+"платных темах WpShop, в них своя обработка картинок."
+
+#: views/wpshop_meta_widget.php:373
+msgid "Exclude from the YML feed "
+msgstr "Исключить из YML-фида "
+
+#: views/wpshop_meta_widget.php:374
+msgid ""
+"enable this option if you want to delete this product from the YML-catalog "
+"(for Yandex Market)"
+msgstr ""
+"включите эту опцию, если требуется исключить данный товар из YML-каталога на "
+"экспорт"
+
+#: views/wpshop_meta_widget.php:389
+msgid "Picture for YML "
+msgstr "Картинка для YML-каталога "
+
+#: views/wpshop_meta_widget.php:390
+msgid "Specify the image to display in the YML catalogue"
+msgstr "Задайте картинку, которую надо вывести в YML-каталоге"
+
+#: views/wpshop_meta_widget.php:400
+msgid "Description for YML catalogue "
+msgstr "Описание для YML-каталога "
+
+#: views/wpshop_meta_widget.php:401
+msgid "Specify a description for the product that you want to display in the YML"
+msgstr "Задайте описание товара, которое требуется вывести в YML-каталоге."
+
+#: views/wpshop_meta_widget.php:408
+msgid "The name of the first product variant "
+msgstr "Наименование 1 варианта товара "
+
+#: views/wpshop_meta_widget.php:409
+msgid ""
+"Specify the name of the first product variant (for example \"XL-size\" or "
+"\"color red\") or SKU. The price of first product variant is taken from the "
+"base price"
+msgstr ""
+"Укажите наименование 1 варианта товара (например \"размер XL\" или \"цвет "
+"красный\") или артикул. Цена варианта товара #1 берется из базовой цены. "
+"Остаток берется из параметров базового товара."
+
+#: views/wpshop_meta_widget.php:428
+msgid "Add a product variation"
+msgstr "Добавить вариацию товара"
+
+#: views/wpshop_meta_widget.php:435 views/wpshop_meta_widget.php:441
+#: views/wpshop_meta_widget.php:447
+msgid "Option #"
+msgstr "Опция #"
+
+#: views/wpshop_meta_widget.php:436
+msgid ""
+"Specify the name of the option #1 through the colon and vertical splitter, "
+"indicating the value of the option (for example \"size: S = 0 | M = 100 | L = "
+"150 | XL = 250 | XXL = 250 \"). The price of the selected option will be "
+"summarized with the base cost and the price of other selected options"
+msgstr ""
+"Укажите наименование опции #1 через двоеточие и вертикальный разделитель, с "
+"указанием стоимости опции, (например \"размер: S=0|M=100|L=150|XL=250|"
+"XXL=250\"). Цена выбранной опции будет суммирована с базовой стоимостью и "
+"ценой других выбранных опций."
+
+#: views/wpshop_meta_widget.php:442
+msgid ""
+"Specify the name of the option #2 followed by a colon and a vertical splitter, "
+"indicating a value options (such as \"color: Blue = 0 | red = 0 | Green = 0 | "
+"0 gray = | yellow = 100\"). The price of the selected option will be "
+"summarized with the base cost and the price of other selected options"
+msgstr ""
+"Укажите наименование опции #2 через двоеточие и вертикальный разделитель, с "
+"указанием стоимости опции (например \"цвет: синий=0|красный=0|зеленый=0|"
+"серый=0|желтый=100\"). Цена выбранной опции будет суммирована с базовой "
+"стоимостью и ценой других выбранных опций."
+
+#: views/wpshop_meta_widget.php:448
+msgid ""
+"specify the name of the option #3, separated by a colon and a vertical "
+"splitter, indicating the value of the option (for example \"packaging: "
+"standard = 0 | Premium = 100 | gift = 200 | VIP = 500 \"). The price of the "
+"selected option will be summarized with the base cost and the price "
+"of other selected options"
+msgstr ""
+"укажите наименование опции #3 через двоеточие и вертикальный разделитель, с "
+"указанием стоимости опции (например \" упаковка: стандарт=0|премиум=100|"
+"подарочная=200|VIP=500\"). Цена выбранной опции будет суммирована с базовой "
+"стоимостью и ценой других выбранных опций."
+
+#: views/wpshop_meta_widget.php:455
+msgid "Selling file"
+msgstr "Продаваемый файл"
+
+#: views/wpshop_meta_widget.php:456
+msgid ""
+"In http://site.com/folder/file.zip format (for example), can be both internal "
+"(relative to the site store) and external"
+msgstr ""
+"В формате http://site.ru/folder/file.zip, может быть как внутренняя (по "
+"отношению к сайту магазина) так и внешняя. При отдаче покупателю маскируется "
+"под внутренний линк с параметром."
+
+#: views/wpshop_meta_widget.php:461
+msgid "The number of allowed downloads"
+msgstr "Разрешенное количество скачиваний"
+
+#: views/wpshop_meta_widget.php:462
+msgid ""
+"Is specified as a number. Each customer downloading decreases "
+"by 1, then off for download"
+msgstr ""
+"Указывается как число. При каждом скачивании клиентом минусуется на 1, после "
+"чего выключается для скачивания."
+
+#: views/wpshop_meta_widget.php:467
+msgid "Lifetime download links"
+msgstr "Срок жизни ссылки для скачивания"
+
+#: views/wpshop_meta_widget.php:468
+msgid ""
+"Is specified as the number of hours. Upon the expiration of the specified time "
+"to live (TTL) is a file off for download"
+msgstr ""
+"Указывается как число часов. По истечении указанного срока жизни — файл "
+"выключается для скачивания."
+
+#: views/wpshop_meta_widget.php:473
+msgid "External url?"
+msgstr "Внешняя ссылка?"
+
+#: views/wpshop_meta_widget.php:474
+msgid "select if this is a link to an external page"
+msgstr ""
+"выберите если ссылка ведет на внешнюю страницу (для файловых хранилищ типа "
+"Yandex disk, Dropbox и др.)"
+
+#~ msgid "The request to Tinkoff Bank is failed"
+#~ msgstr "Ваш платеж через Тинькофф Банк не принят"
+
+#~ msgid ""
+#~ "The following settings works only in <u>pro</u> version of the Wpshop plugin"
+#~ msgstr ""
+#~ "Следующие настройки работают только в версии <u>pro</ u> плагина Wpshop"
+
+#~ msgid ""
+#~ "For correct work of plugin `wp-shop-original` required `cforms 2` plugin "
+#~ "version not older than 14.13.3 that you can download by"
+#~ msgstr ""
+#~ "Для корректрой работы плагина `wp-shop-original` необходим плагин `cforms "
+#~ "2` не старше 14.13.3 который вы можете скачать по"
+
+#~ msgid "link"
+#~ msgstr "ссылке"
+
+#~ msgid "Doveritelniy payment"
+#~ msgstr "Доверительный платеж"
+
+#~ msgid "Mobile retails"
+#~ msgstr "Салоны связи"
+
+#~ msgid "mailrumoney"
+#~ msgstr "Деньги@Mail.Ru"
+
+#~ msgid "Walletone"
+#~ msgstr "Единая касса"
+
+#~ msgid "mts"
+#~ msgstr "МТС"
+
+#~ msgid "megafon"
+#~ msgstr "Мегафон"
+
+#~ msgid "Kievstar"
+#~ msgstr "Киевстар"
+
+#~ msgid "ZPayment"
+#~ msgstr "ZPayment"
+
+#~ msgid "Enable Doveritelniy payment"
+#~ msgstr "Активировать Доверительный платеж"
+
+#~ msgid "Boxberry delivery"
+#~ msgstr "Доставка boxberry"
+
+#~ msgid "Enable support for Boxberry delivery"
+#~ msgstr "Включить доставку boxberry"
+
+#~ msgid "Boxberry intergration key"
+#~ msgstr "ключ интеграции"
+
+#~ msgid "Custom city"
+#~ msgstr "Город  при инициализации карты"
+
+#~ msgid "Target start"
+#~ msgstr "Центр отправки"
+
+#~ msgid "Collect on delivery?"
+#~ msgstr "Наложенный платеж?"
+
+#~ msgid "Work schedule"
+#~ msgstr "Расписание работы"
+
+#~ msgid "Delivery period"
+#~ msgstr "Время доставки"
+
+#~ msgid "day"
+#~ msgstr "д."
+
+#~ msgid "Telephone office"
+#~ msgstr "Телефон ПВЗ"
+
+#~ msgid ""
+#~ " <strong> Warning!</strong>This option works only in < a href = \"http://"
+#~ "demo.wp-shop.ru\" target = \"_blank\" > paid WP Shop themes</a>!"
+#~ msgstr ""
+#~ "<strong>Внимание!</strong> Параметр работает только в <a href=\"http://demo."
+#~ "wp-shop.ru\" target=\"_blank\">платных темах WP Shop</a>! Включает ротацию "
+#~ "внутри товара похожих товаров. Принцип вывода похожих товаров: по тому-же "
+#~ "тегу, что и корневой товар (позволяет произвольно связывать товары между "
+#~ "собой тегами); если не определен тег — выводит из той же рубрики, что и "
+#~ "корневой товар. Сортирует по новизне."
+
+#~ msgid "Personal account"
+#~ msgstr "Лицевой счет"
+
+#~ msgid "Сorr. account"
+#~ msgstr "Кор. счет"
+
+#~ msgid "Show onclick cart widjet:"
+#~ msgstr "Предлагать переход в корзину при клике на кнопку 'Купить'"
+
+#~ msgid "Additional options are included in the &quot;WP Shop Payments&quot;"
+#~ msgstr ""
+#~ "Включение/отключение дополнительных сценариев оплаты, настраиваются в "
+#~ "разделе &quot;Настройка оплаты&quot;"
+
+#~ msgid "Support the authors of the plugin WP-Shop!"
+#~ msgstr "Поддержите авторов плагина WP-Shop!"
+
+#~ msgid ""
+#~ "If the plugin has helped you in your business, please make donations and "
+#~ "support the authors! With your support we can continue to improve the our "
+#~ "plugins and make new ones."
+#~ msgstr ""
+#~ "Если наш плагин помог Вам в Вашей работе, поддержите авторов денежкой! С "
+#~ "Вашей поддержкой мы сможем продолжать улучшать существующие плагины и "
+#~ "делать новые."
+
+#~ msgid ""
+#~ "<strong>Authors of the plugin:</strong> Alexander Kuznetsov, Igor Bobko, "
+#~ "Sergey Makarin"
+#~ msgstr "<strong>Авторы плагина:</strong> Кузнецов Александр, Абрамов Кирилл"
+
+#~ msgid "Данные магазина очищены"
+#~ msgstr "Данные магазина очищены"
+
+#~ msgid "With discount"
+#~ msgstr "Со скидкой"
+
+#~ msgid "moneytransfer"
+#~ msgstr "Денежный перевод"
+
+#~ msgid "bankoffice"
+#~ msgstr "Отделение банка"
+
+#~ msgid "onlinebank"
+#~ msgstr "Интернет банкинг"
+
+#~ msgid "cashterminal"
+#~ msgstr "Терминал"
+
+#~ msgid "mobileretails"
+#~ msgstr "Салоны связи"
+
+#~ msgid "Pecunix"
+#~ msgstr "Pecunix"
+
+#~ msgid "Elecsnet"
+#~ msgstr "Элекснет"
+
+#~ msgid "Widget ID:"
+#~ msgstr "ID виджета:"
+
+#~ msgid "Secret Key:"
+#~ msgstr "Секретный ключ:"
+
+#~ msgid "Enable support of User delivery"
+#~ msgstr "Включить поддержку пользовательской доставки"
+
+#~ msgid "Jabber / Google Talk:"
+#~ msgstr "Jabber / Google Talk:"
+
+#~ msgid "Yahoo IM:"
+#~ msgstr "Yahoo IM:"
+
+#~ msgid "AIM:"
+#~ msgstr "AIM:"
+
+#~ msgid "Biography:"
+#~ msgstr "Биография:"
+
+#~ msgid "These forms have a field"
+#~ msgstr "&nbsp;"
+
+#~ msgid "Make the field"
+#~ msgstr "&nbsp;"
+
+#~ msgid "hidden"
+#~ msgstr "&nbsp;"
+
+#~ msgid "PayPal - the safer, easier way to pay online!"
+#~ msgstr "PayPal — более безопасный и легкий способ оплаты через Интернет!"
+
+#~ msgid "Link to unfortunate users IE 6"
+#~ msgstr "Линк для несчастных пользователей IE 6"
+
+#~ msgid "Merchant"
+#~ msgstr "Продавец"
+
+#~ msgid "Customer"
+#~ msgstr "Покупатель"
+
+#~ msgid "Authorization"
+#~ msgstr "Авторизация"
+
+#~ msgid "Authorization on the site:"
+#~ msgstr "Авторизация на сайте:"
+
+#~ msgid "Checkout"
+#~ msgstr "Покупка товаров"

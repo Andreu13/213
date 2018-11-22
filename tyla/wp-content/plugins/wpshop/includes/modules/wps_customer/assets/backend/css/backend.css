@@ -1,0 +1,103 @@
+/**
+ *
+ *
+ *	CUSTOMER LIST TABLE SPECIFIC STYLES
+ *
+ *
+ */
+#customer-identifier {
+	width: 90px;
+}
+#customer-name {
+	width: 40%;
+}
+#customer_date_subscription, #customer_date_lastlogin{
+	width: 115px;
+}
+.post-type-wpshop_customers.post-php .wrap > h2, .post-type-wpshop_customers.post-php .wrap #titlediv, .post-type-wpshop_customers.edit-php .wrap ul.subsubsub {
+/* 	display: none; */
+}
+body.wpshop-admin-post-type-wpshop_customers input#delete_all {
+	display: none;
+}
+.post-type-wpshop_customers.post-php .wrap {
+	clear: both;
+}
+#customer-contacts {
+	width: 35%;
+}
+#customer-orders {
+	width: 24%;
+}
+.column-customer_orders ul {
+	margin: 0px !important;
+}
+.column-customer_orders div.wps-alert-info {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.wp-shop-customers-list-orders-stats {
+	float: left;
+}
+.wp-shop-customers-list-ordered-product {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+.wp-shop-customers-list-ordered-product p {
+	margin: 0px !important;
+	font-style: italic;
+	text-decoration: underline;
+}
+.wps-customer-name-container {
+	margin: 5px 0 0 20px;
+}
+.wps-customer-name-container div i.dashicons-businessman {
+	font-size: 14px;
+	line-height: 24px
+}
+.wps-customer-name-container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.wps-customer-email {
+	float: left;
+	width: 30%;
+}
+.wps-customer-last_name {
+	float: left;
+	width: 30%;
+}
+.wps-customer-first_name {
+	float: left;
+	width: 30%;
+}
+
+#minor-publishing-actions > div, #misc-publishing-actions > div {
+	display: none;
+}
+#misc-publishing-actions > span {
+	display: block;
+}
+body.post-type-wpshop_customers div.postbox > div.inside {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+body.post-type-wpshop_customers div.postbox > div.inside div.wps-boxed, div.postbox > div.inside div.wps-table {
+	margin-bottom: 0 !important;
+}
+#wps_customer_orders.postbox > h2 > span > a.page-title-action, #wpshop_order_customer_information_box.postbox > h2 > span > a.page-title-action {
+	top: 0px;
+}
+.customer-account-detail-group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+i.wps-icon-plus{
+	background: none !important;
+	color:#555555 !important;
+	padding: 0 !important;
+}
